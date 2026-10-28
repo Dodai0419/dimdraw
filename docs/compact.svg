@@ -1,0 +1,568 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 1290" role="img" aria-label="Compact card dimensional drawing: plan view, shadow envelope, exploded view, nested corner, radius and body well details, variable tables">
+<style>.u{font-family:var(--f)}svg{--ink:#111;--ink2:#444;--ink3:#7a7a7a;--fill:#f3f3f3;--fill2:#e6e6e6;--sheet:#fff;--f:Arimo,'Helvetica Neue',Helvetica,Arial,sans-serif}
+.bg{fill:#fff}.border{fill:none;stroke:var(--ink);stroke-width:1.2}.obj{fill:var(--sheet);stroke:var(--ink);stroke-width:1.6;stroke-linejoin:round}
+.well{fill:var(--fill);stroke:var(--ink);stroke-width:1}.slot{fill:none;stroke:var(--ink2);stroke-width:.8;stroke-dasharray:4 3}
+.hug{fill:var(--fill2);stroke:var(--ink);stroke-width:1}.thin{fill:none;stroke:var(--ink);stroke-width:.8}
+.ph{fill:none;stroke:var(--ink3);stroke-width:.8;stroke-dasharray:14 3 3 3}.cl{fill:none;stroke:var(--ink3);stroke-width:.7;stroke-dasharray:16 3 2 3}
+.dl{stroke:var(--ink);stroke-width:.7;fill:none}.ext{stroke:var(--ink);stroke-width:.55;fill:none}.arrow{fill:var(--ink)}
+.hl{stroke:var(--ink2);stroke-width:.7}.hs{stroke:var(--ink);stroke-width:.8}.env{fill:none;stroke:var(--ink);stroke-width:.8;stroke-dasharray:10 3 2 3}
+.dt{font:400 11px var(--f);fill:var(--ink);paint-order:stroke;stroke:var(--sheet);stroke-width:4px;stroke-linejoin:round}
+.dts{font:400 9.5px var(--f);fill:var(--ink2);letter-spacing:.06em;text-transform:uppercase;paint-order:stroke;stroke:var(--sheet);stroke-width:3px}
+.sl{font:400 9px var(--f);fill:var(--ink2);letter-spacing:.08em;text-transform:uppercase}
+.nt{font:400 11.5px var(--f);fill:var(--ink);letter-spacing:.06em;text-transform:uppercase}.nth{font:700 13px var(--f);fill:var(--ink);letter-spacing:.06em}
+.vt{font:400 12px var(--f);fill:var(--ink);letter-spacing:.1em;text-transform:uppercase}.big{font:400 40px var(--f);fill:var(--ink);letter-spacing:.1em;text-transform:uppercase}
+.nb{fill:var(--sheet);stroke:var(--ink);stroke-width:.9}.nbt{font:400 9.5px var(--f);fill:var(--ink)}.lead{stroke:var(--ink);stroke-width:.7;fill:none}.dot{fill:var(--ink)}
+.th{font:400 10.5px var(--f);fill:var(--ink);letter-spacing:.05em;text-transform:uppercase}.tc{font:400 10.5px var(--f);fill:var(--ink)}
+.lbl{font:400 9.5px var(--f);fill:var(--ink2);letter-spacing:.06em;text-transform:uppercase}.v{font:400 13px var(--f);fill:var(--ink);letter-spacing:.05em;text-transform:uppercase}.fv{font:400 18px var(--f);fill:var(--ink);letter-spacing:.06em}</style>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,1.7 L10,5 L0,8.3 z" class="arrow"/></marker>
+<pattern id="hat" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="5" class="hl"/></pattern></defs>
+<rect class="bg" width="1700" height="1290"/>
+<rect x="20" y="20" width="1660" height="154" rx="16" class="border"/>
+<text x="40" y="44" class="lbl">UI component · dimensional drawing</text>
+<text x="40" y="88" class="big">Compact card</text>
+<text x="40" y="112" class="lbl">Architecture only: slots, spacing, radii and layers. Content is out of scope.</text>
+<line x1="626" y1="20" x2="626" y2="116" class="thin"/>
+<text x="640" y="44" class="lbl">Dwg no.</text>
+<text x="640" y="64" class="v">UI-CARD-002</text>
+<line x1="796" y1="20" x2="796" y2="116" class="thin"/>
+<text x="810" y="44" class="lbl">Rev</text>
+<text x="810" y="64" class="v">A · 2026-10-28</text>
+<line x1="966" y1="20" x2="966" y2="116" class="thin"/>
+<text x="980" y="44" class="lbl">Units</text>
+<text x="980" y="64" class="v">CSS px @ 1×</text>
+<line x1="1136" y1="20" x2="1136" y2="116" class="thin"/>
+<text x="1150" y="44" class="lbl">Scale</text>
+<text x="1150" y="64" class="v">1:1 unless noted</text>
+<line x1="1306" y1="20" x2="1306" y2="116" class="thin"/>
+<text x="1320" y="44" class="lbl">Source</text>
+<text x="1320" y="64" class="v">example tokens</text>
+<line x1="20" y1="116" x2="1680" y2="116" class="thin"/>
+<text x="40" y="136" class="lbl">W · card-w</text>
+<text x="40" y="160" class="fv">320–420</text>
+<text x="276" y="136" class="lbl">S1 · card-pad</text>
+<text x="276" y="160" class="fv">10</text>
+<text x="512" y="136" class="lbl">S2 · well-pad</text>
+<text x="512" y="160" class="fv">8</text>
+<text x="748" y="136" class="lbl">S6 · well-inset</text>
+<text x="748" y="160" class="fv">3</text>
+<text x="984" y="136" class="lbl">H1 · header-min</text>
+<text x="984" y="160" class="fv">2·S1 + H3</text>
+<text x="1220" y="136" class="lbl">R1 · r-card</text>
+<text x="1220" y="160" class="fv">12</text>
+<text x="1456" y="136" class="lbl">R2 · r-well</text>
+<text x="1456" y="160" class="fv">R1 − B − S6</text>
+<g transform="translate(0 190)">
+<rect x="20" y="20" width="1660" height="1020" rx="16" class="border"/>
+<text x="50" y="58" class="nth">NOTES:</text>
+<text x="112" y="58" class="nt">(UNLESS OTHERWISE SPECIFIED)</text>
+<rect x="50" y="78" width="12" height="12" class="nb"/>
+<text x="56" y="87.5" class="nbt" text-anchor="middle">1</text>
+<text x="72" y="88" class="nt">TITLE SLOT FLEXES (MIN-WIDTH 0) AND WRAPS. HEADER GROWS PAST H1.</text>
+<rect x="50" y="102" width="12" height="12" class="nb"/>
+<text x="56" y="111.5" class="nbt" text-anchor="middle">2</text>
+<text x="72" y="112" class="nt">BODY WELL INSET S6 FROM CONTAINER. WELL RADIUS R2 = R1 − B − S6 (DERIVED).</text>
+<rect x="50" y="126" width="12" height="12" class="nb"/>
+<text x="56" y="135.5" class="nbt" text-anchor="middle">3</text>
+<text x="72" y="136" class="nt">TRAIL AND ACTION SLOTS HUG THEIR CONTENT AND NEVER SHRINK.</text>
+<rect x="50" y="150" width="12" height="12" class="nb"/>
+<text x="56" y="159.5" class="nbt" text-anchor="middle">4</text>
+<text x="72" y="160" class="nt">META SLOT WRAPS BEFORE THE ACTION MOVES.</text>
+<rect x="50" y="174" width="12" height="12" class="nb"/>
+<text x="56" y="183.5" class="nbt" text-anchor="middle">5</text>
+<text x="72" y="184" class="nt">DO NOT CLIP THE SHADOW: KEEP E1 ABOVE, E2 EACH SIDE, E3 BELOW.</text>
+<rect x="50" y="198" width="12" height="12" class="nb"/>
+<text x="56" y="207.5" class="nbt" text-anchor="middle">6</text>
+<text x="72" y="208" class="nt">WIDTH W BETWEEN 320 MIN AND 420 MAX. HEIGHT HUGS CONTENT.</text>
+<rect x="50" y="222" width="12" height="12" class="nb"/>
+<text x="56" y="231.5" class="nbt" text-anchor="middle">7</text>
+<text x="72" y="232" class="nt">ACTION HIT AREA 44 MIN ON TOUCH LAYOUTS (H3 DRAWN).</text>
+<rect x="792" y="290" width="396" height="211.2" rx="13.2" class="obj"/>
+<line x1="793.1" y1="343.9" x2="1186.9" y2="343.9" class="ph"/>
+<line x1="793.1" y1="447.3" x2="1186.9" y2="447.3" class="ph"/>
+<rect x="796.4" y="343.9" width="387.2" height="103.4" rx="8.8" class="well"/>
+<rect x="804.1" y="309.8" width="15.4" height="15.4" class="thin"/>
+<path d="M804.1,309.8 L819.5,325.2 M819.5,309.8 L804.1,325.2" class="thin"/>
+<rect x="826.1" y="308.7" width="275" height="17.6" rx="2.2" class="slot"/>
+<text x="832.1" y="320.7" class="sl" text-anchor="start">Title slot · flex</text>
+<rect x="1109.9" y="307.6" width="66" height="19.8" rx="8.8" class="hug"/>
+<text x="1142.9" y="320.7" class="sl" text-anchor="middle">Trail</text>
+<rect x="806.3" y="353.8" width="367.4" height="30.8" rx="2.2" class="slot"/>
+<text x="990" y="372.4" class="sl" text-anchor="middle">Content slot · fill</text>
+<rect x="806.3" y="393.4" width="367.4" height="17.6" rx="2.2" class="slot"/>
+<text x="990" y="405.4" class="sl" text-anchor="middle">Content slot · fill</text>
+<rect x="806.3" y="419.8" width="367.4" height="17.6" rx="2.2" class="slot"/>
+<text x="990" y="431.8" class="sl" text-anchor="middle">Content slot · fill</text>
+<rect x="804.1" y="460.5" width="257.4" height="26.4" rx="2.2" class="slot"/>
+<text x="810.1" y="476.9" class="sl" text-anchor="start">Meta slot · flex · wraps</text>
+<rect x="1070.3" y="458.3" width="105.6" height="30.8" rx="15.4" class="hug"/>
+<text x="1123.1" y="476.9" class="sl" text-anchor="middle">Action</text>
+<line x1="774.4" y1="317.5" x2="1205.6" y2="317.5" class="cl"/>
+<line x1="774.4" y1="473.7" x2="1205.6" y2="473.7" class="cl"/>
+<rect x="1083" y="311.5" width="12" height="12" class="nb"/>
+<text x="1089" y="321" class="nbt" text-anchor="middle">1</text>
+<rect x="1158.9" y="311.5" width="12" height="12" class="nb"/>
+<text x="1164.9" y="321" class="nbt" text-anchor="middle">3</text>
+<rect x="1043.4" y="467.7" width="12" height="12" class="nb"/>
+<text x="1049.4" y="477.2" class="nbt" text-anchor="middle">4</text>
+<rect x="1142.4" y="467.7" width="12" height="12" class="nb"/>
+<text x="1148.4" y="477.2" class="nbt" text-anchor="middle">3</text>
+<rect x="1157.8" y="467.7" width="12" height="12" class="nb"/>
+<text x="1163.8" y="477.2" class="nbt" text-anchor="middle">7</text>
+<line x1="793.1" y1="287" x2="793.1" y2="252" class="ext"/>
+<line x1="804.1" y1="306.8" x2="804.1" y2="252" class="ext"/>
+<line x1="780.1" y1="257" x2="793.1" y2="257" class="dl" marker-end="url(#ar)"/>
+<line x1="817.1" y1="257" x2="804.1" y2="257" class="dl" marker-end="url(#ar)"/>
+<line x1="793.1" y1="257" x2="804.1" y2="257" class="dl"/>
+<text x="789.6" y="253" class="dt" text-anchor="middle">S1</text>
+<line x1="819.5" y1="306.8" x2="819.5" y2="252" class="ext"/>
+<line x1="791.1" y1="257" x2="804.1" y2="257" class="dl" marker-end="url(#ar)"/>
+<line x1="832.5" y1="257" x2="819.5" y2="257" class="dl" marker-end="url(#ar)"/>
+<line x1="804.1" y1="257" x2="819.5" y2="257" class="dl"/>
+<text x="811.8" y="241" class="dt" text-anchor="middle">Z1</text>
+<line x1="826.1" y1="305.7" x2="826.1" y2="252" class="ext"/>
+<line x1="806.5" y1="257" x2="819.5" y2="257" class="dl" marker-end="url(#ar)"/>
+<line x1="839.1" y1="257" x2="826.1" y2="257" class="dl" marker-end="url(#ar)"/>
+<line x1="819.5" y1="257" x2="826.1" y2="257" class="dl"/>
+<text x="831.8" y="253" class="dt" text-anchor="middle">S5</text>
+<line x1="1101.1" y1="305.7" x2="1101.1" y2="252" class="ext"/>
+<line x1="826.1" y1="257" x2="1101.1" y2="257" class="dl" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text x="963.6" y="253" class="dts" text-anchor="middle">FLEX</text>
+<line x1="1109.9" y1="304.6" x2="1109.9" y2="252" class="ext"/>
+<line x1="1088.1" y1="257" x2="1101.1" y2="257" class="dl" marker-end="url(#ar)"/>
+<line x1="1122.9" y1="257" x2="1109.9" y2="257" class="dl" marker-end="url(#ar)"/>
+<line x1="1101.1" y1="257" x2="1109.9" y2="257" class="dl"/>
+<text x="1105.5" y="253" class="dt" text-anchor="middle">S4</text>
+<line x1="1175.9" y1="304.6" x2="1175.9" y2="252" class="ext"/>
+<line x1="1109.9" y1="257" x2="1175.9" y2="257" class="dl" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text x="1142.9" y="253" class="dts" text-anchor="middle">HUG</text>
+<line x1="1186.9" y1="287" x2="1186.9" y2="252" class="ext"/>
+<line x1="1162.9" y1="257" x2="1175.9" y2="257" class="dl" marker-end="url(#ar)"/>
+<line x1="1199.9" y1="257" x2="1186.9" y2="257" class="dl" marker-end="url(#ar)"/>
+<line x1="1175.9" y1="257" x2="1186.9" y2="257" class="dl"/>
+<text x="1181.4" y="253" class="dt" text-anchor="middle">S1</text>
+<line x1="792" y1="249.6" x2="792" y2="216.8" class="ext"/>
+<line x1="1188" y1="249.6" x2="1188" y2="216.8" class="ext"/>
+<line x1="792" y1="221.8" x2="1188" y2="221.8" class="dl" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text x="990" y="217.8" class="dt" text-anchor="middle">W</text>
+<text x="990" y="202" class="dts" text-anchor="middle">W = 320 – 420 · REF 360</text>
+<rect x="1063.2" y="191.6" width="12" height="12" class="nb"/>
+<text x="1069.2" y="201.1" class="nbt" text-anchor="middle">6</text>
+<line x1="793.1" y1="504.2" x2="793.1" y2="539.2" class="ext"/>
+<line x1="804.1" y1="489.9" x2="804.1" y2="539.2" class="ext"/>
+<line x1="780.1" y1="534.2" x2="793.1" y2="534.2" class="dl" marker-end="url(#ar)"/>
+<line x1="817.1" y1="534.2" x2="804.1" y2="534.2" class="dl" marker-end="url(#ar)"/>
+<line x1="793.1" y1="534.2" x2="804.1" y2="534.2" class="dl"/>
+<text x="798.6" y="547.2" class="dt" text-anchor="middle">S1</text>
+<line x1="1061.5" y1="489.9" x2="1061.5" y2="539.2" class="ext"/>
+<line x1="804.1" y1="534.2" x2="1061.5" y2="534.2" class="dl" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text x="932.8" y="547.2" class="dts" text-anchor="middle">FLEX</text>
+<line x1="1070.3" y1="492.1" x2="1070.3" y2="539.2" class="ext"/>
+<line x1="1048.5" y1="534.2" x2="1061.5" y2="534.2" class="dl" marker-end="url(#ar)"/>
+<line x1="1083.3" y1="534.2" x2="1070.3" y2="534.2" class="dl" marker-end="url(#ar)"/>
+<line x1="1061.5" y1="534.2" x2="1070.3" y2="534.2" class="dl"/>
+<text x="1065.9" y="547.2" class="dt" text-anchor="middle">S4</text>
+<line x1="1175.9" y1="492.1" x2="1175.9" y2="539.2" class="ext"/>
+<line x1="1070.3" y1="534.2" x2="1175.9" y2="534.2" class="dl" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text x="1123.1" y="547.2" class="dts" text-anchor="middle">HUG</text>
+<line x1="1186.9" y1="504.2" x2="1186.9" y2="539.2" class="ext"/>
+<line x1="1162.9" y1="534.2" x2="1175.9" y2="534.2" class="dl" marker-end="url(#ar)"/>
+<line x1="1199.9" y1="534.2" x2="1186.9" y2="534.2" class="dl" marker-end="url(#ar)"/>
+<line x1="1175.9" y1="534.2" x2="1186.9" y2="534.2" class="dl"/>
+<text x="1181.4" y="547.2" class="dt" text-anchor="middle">S1</text>
+<line x1="789" y1="291.1" x2="723.2" y2="291.1" class="ext"/>
+<line x1="789" y1="343.9" x2="723.2" y2="343.9" class="ext"/>
+<line x1="728.2" y1="291.1" x2="728.2" y2="343.9" class="dl" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text x="723.2" y="317.5" class="dt" text-anchor="middle" transform="rotate(-90 723.2 317.5)">H1</text>
+<line x1="793.4" y1="447.3" x2="723.2" y2="447.3" class="ext"/>
+<line x1="728.2" y1="343.9" x2="728.2" y2="447.3" class="dl" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text x="723.2" y="395.6" class="dts" text-anchor="middle" transform="rotate(-90 723.2 395.6)">HUG</text>
+<line x1="789" y1="500.1" x2="723.2" y2="500.1" class="ext"/>
+<line x1="728.2" y1="447.3" x2="728.2" y2="500.1" class="dl" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text x="723.2" y="473.7" class="dt" text-anchor="middle" transform="rotate(-90 723.2 473.7)">H2</text>
+<line x1="720.8" y1="290" x2="681.4" y2="290" class="ext"/>
+<line x1="720.8" y1="501.2" x2="681.4" y2="501.2" class="ext"/>
+<line x1="686.4" y1="290" x2="686.4" y2="501.2" class="dl" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text x="681.4" y="395.6" class="dt" text-anchor="middle" transform="rotate(-90 681.4 395.6)">(REF 192)</text>
+<line x1="1191" y1="291.1" x2="1237" y2="291.1" class="ext"/>
+<line x1="1191" y1="302.1" x2="1237" y2="302.1" class="ext"/>
+<line x1="1232" y1="278.1" x2="1232" y2="291.1" class="dl" marker-end="url(#ar)"/>
+<line x1="1232" y1="315.1" x2="1232" y2="302.1" class="dl" marker-end="url(#ar)"/>
+<line x1="1232" y1="291.1" x2="1232" y2="302.1" class="dl"/>
+<text x="1238" y="300.6" class="dt" text-anchor="start">S1</text>
+<line x1="1191" y1="302.1" x2="1237" y2="302.1" class="ext"/>
+<line x1="1191" y1="332.9" x2="1237" y2="332.9" class="ext"/>
+<line x1="1232" y1="302.1" x2="1232" y2="332.9" class="dl" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text x="1238" y="321.5" class="dt" text-anchor="start">H3</text>
+<line x1="1191" y1="332.9" x2="1237" y2="332.9" class="ext"/>
+<line x1="1191" y1="343.9" x2="1237" y2="343.9" class="ext"/>
+<line x1="1232" y1="319.9" x2="1232" y2="332.9" class="dl" marker-end="url(#ar)"/>
+<line x1="1232" y1="356.9" x2="1232" y2="343.9" class="dl" marker-end="url(#ar)"/>
+<line x1="1232" y1="332.9" x2="1232" y2="343.9" class="dl"/>
+<text x="1238" y="342.4" class="dt" text-anchor="start">S1</text>
+<line x1="1191" y1="447.3" x2="1237" y2="447.3" class="ext"/>
+<line x1="1191" y1="458.3" x2="1237" y2="458.3" class="ext"/>
+<line x1="1232" y1="434.3" x2="1232" y2="447.3" class="dl" marker-end="url(#ar)"/>
+<line x1="1232" y1="471.3" x2="1232" y2="458.3" class="dl" marker-end="url(#ar)"/>
+<line x1="1232" y1="447.3" x2="1232" y2="458.3" class="dl"/>
+<text x="1238" y="456.8" class="dt" text-anchor="start">S1</text>
+<line x1="1191" y1="458.3" x2="1237" y2="458.3" class="ext"/>
+<line x1="1191" y1="489.1" x2="1237" y2="489.1" class="ext"/>
+<line x1="1232" y1="458.3" x2="1232" y2="489.1" class="dl" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text x="1238" y="477.7" class="dt" text-anchor="start">H3</text>
+<line x1="1191" y1="489.1" x2="1237" y2="489.1" class="ext"/>
+<line x1="1191" y1="500.1" x2="1237" y2="500.1" class="ext"/>
+<line x1="1232" y1="476.1" x2="1232" y2="489.1" class="dl" marker-end="url(#ar)"/>
+<line x1="1232" y1="513.1" x2="1232" y2="500.1" class="dl" marker-end="url(#ar)"/>
+<line x1="1232" y1="489.1" x2="1232" y2="500.1" class="dl"/>
+<text x="1238" y="498.6" class="dt" text-anchor="start">S1</text>
+<circle cx="795.87" cy="497.33" r="1.8" class="dot"/>
+<polyline points="795.87 497.33 773.87 519.33 763.87 519.33" class="lead"/>
+<text x="759.87" y="523.33" class="dt" text-anchor="end">R1</text>
+<circle cx="1171.39" cy="484.59" r="1.8" class="dot"/>
+<polyline points="1171.39 484.59 1193.39 506.59 1203.39 506.59" class="lead"/>
+<text x="1207.39" y="510.59" class="dt" text-anchor="start">R4</text>
+<circle cx="1108.8" cy="395.6" r="44" class="ph"/>
+<line x1="1065.02" y1="399.98" x2="998.8" y2="406.6" class="lead"/>
+<text x="994.8" y="410.6" class="dts" text-anchor="end">DETAIL B</text>
+<circle cx="797.5" cy="345" r="14" class="ph"/>
+<line x1="810.93" y1="341.05" x2="834.9" y2="334" class="lead"/>
+<text x="838.9" y="338" class="dts" text-anchor="start">DETAIL C</text>
+<text x="990" y="587" class="vt" text-anchor="middle">Plan view</text>
+<text x="990" y="601" class="dts" text-anchor="middle">Scale 1.1:1 · reference W = 360</text>
+<line x1="290" y1="704" x2="290" y2="536" class="ph"/>
+<line x1="459.2" y1="734.6" x2="459.2" y2="566.6" class="ph"/>
+<line x1="426.56" y1="779.72" x2="426.56" y2="611.72" class="ph"/>
+<line x1="257.36" y1="749.12" x2="257.36" y2="581.12" class="ph"/>
+<g transform="matrix(0.47 0.09 -0.17 0.24 290 760)"><rect x="-20" y="-20" width="400" height="232" rx="0" class="thin" vector-effect="non-scaling-stroke"/></g>
+<g transform="matrix(0.47 0.09 -0.17 0.24 290 704)"><rect x="6" y="6" width="348" height="180" rx="12" class="hs" fill="url(#hat)" vector-effect="non-scaling-stroke"/></g>
+<g transform="matrix(0.47 0.09 -0.17 0.24 290 648)"><rect x="0" y="0" width="360" height="192" rx="12" class="obj" vector-effect="non-scaling-stroke"/><line x1="1" y1="49" x2="359" y2="49" class="ph" vector-effect="non-scaling-stroke"/><line x1="1" y1="143" x2="359" y2="143" class="ph" vector-effect="non-scaling-stroke"/></g>
+<g transform="matrix(0.47 0.09 -0.17 0.24 290 592)"><rect x="4" y="49" width="352" height="94" rx="8" class="well" vector-effect="non-scaling-stroke"/><rect x="289" y="16" width="60" height="18" rx="8" class="hug" vector-effect="non-scaling-stroke"/></g>
+<g transform="matrix(0.47 0.09 -0.17 0.24 290 536)"><rect x="11" y="18" width="14" height="14" rx="0" class="thin" vector-effect="non-scaling-stroke"/><rect x="31" y="17" width="250" height="16" rx="2" class="slot" vector-effect="non-scaling-stroke"/><rect x="13" y="58" width="334" height="28" rx="2" class="slot" vector-effect="non-scaling-stroke"/><rect x="13" y="94" width="334" height="16" rx="2" class="slot" vector-effect="non-scaling-stroke"/><rect x="13" y="118" width="334" height="16" rx="2" class="slot" vector-effect="non-scaling-stroke"/><rect x="11" y="155" width="234" height="24" rx="2" class="slot" vector-effect="non-scaling-stroke"/><rect x="253" y="153" width="96" height="28" rx="14" class="hug" vector-effect="non-scaling-stroke"/></g>
+<circle cx="244.56" cy="808.12" r="1.8" class="dot"/>
+<polyline points="244.56 808.12 235 808.12 225 808.12" class="lead"/>
+<text x="221" y="806.12" class="vt" text-anchor="end">L0 · Canvas</text>
+<text x="221" y="819.12" class="dts" text-anchor="end">Page background</text>
+<circle cx="259.16" cy="751.04" r="1.8" class="dot"/>
+<polyline points="259.16 751.04 235 751.04 225 751.04" class="lead"/>
+<text x="221" y="749.04" class="vt" text-anchor="end">L1 · Shadow</text>
+<text x="221" y="762.04" class="dts" text-anchor="end">Footprint · Y · BL · SP</text>
+<circle cx="257.36" cy="693.12" r="1.8" class="dot"/>
+<polyline points="257.36 693.12 235 693.12 225 693.12" class="lead"/>
+<text x="221" y="691.12" class="vt" text-anchor="end">L2 · Container</text>
+<text x="221" y="704.12" class="dts" text-anchor="end">R1 · B · header / body / footer</text>
+<circle cx="267.57" cy="625.95" r="1.8" class="dot"/>
+<polyline points="267.57 625.95 235 625.95 225 625.95" class="lead"/>
+<text x="221" y="623.95" class="vt" text-anchor="end">L3 · Inset surfaces</text>
+<text x="221" y="636.95" class="dts" text-anchor="end">Well R2 · trail R3</text>
+<circle cx="264.74" cy="579" r="1.8" class="dot"/>
+<polyline points="264.74 579 235 579 225 579" class="lead"/>
+<text x="221" y="577" class="vt" text-anchor="end">L4 · Slots</text>
+<text x="221" y="590" class="dts" text-anchor="end">Title · content · meta · action</text>
+<text x="410" y="910" class="vt" text-anchor="middle">Exploded view</text>
+<text x="410" y="924" class="dts" text-anchor="middle">Axonometric · z gaps not to scale</text>
+<path d="M670,688 L670,808 A72 72 0 0 0 742,880 L862,880" class="obj" fill="none"/>
+<path d="M676,688 L676,808 A66 66 0 0 0 742,874 L862,874" class="thin"/>
+<path d="M694,688 L694,808 A48 48 0 0 0 742,856 L862,856" class="thin"/>
+<path d="M734,808 h16 M742,800 v16" class="thin"/>
+<line x1="742" y1="808" x2="676.75" y2="838.43" class="dl" marker-end="url(#ar)"/>
+<text x="703.37" y="817.21" class="dt" text-anchor="end">R1</text>
+<line x1="742" y1="808" x2="725.58" y2="853.11" class="dl" marker-end="url(#ar)"/>
+<text x="741.79" y="832.55" class="dt" text-anchor="start">R2</text>
+<line x1="670" y1="691" x2="670" y2="717" class="ext"/>
+<line x1="676" y1="691" x2="676" y2="717" class="ext"/>
+<line x1="657" y1="712" x2="670" y2="712" class="dl" marker-end="url(#ar)"/>
+<line x1="689" y1="712" x2="676" y2="712" class="dl" marker-end="url(#ar)"/>
+<line x1="670" y1="712" x2="676" y2="712" class="dl"/>
+<text x="663" y="708" class="dt" text-anchor="middle">B</text>
+<line x1="694" y1="691" x2="694" y2="717" class="ext"/>
+<line x1="663" y1="712" x2="676" y2="712" class="dl" marker-end="url(#ar)"/>
+<line x1="707" y1="712" x2="694" y2="712" class="dl" marker-end="url(#ar)"/>
+<line x1="676" y1="712" x2="694" y2="712" class="dl"/>
+<text x="697" y="708" class="dt" text-anchor="middle">S6</text>
+<text x="754" y="796" class="dts">SHARED CENTER</text>
+<text x="714.64" y="724" class="dt">R2 = R1 − B − S6</text>
+<text x="751" y="910" class="vt" text-anchor="middle">Detail C · nested corner</text>
+<text x="751" y="924" class="dts" text-anchor="middle">Scale 6:1</text>
+<path d="M950,718 L950,761.2 A28.8 28.8 0 0 0 978.8,790 L1022,790" class="obj" fill="none"/>
+<path d="M973.8,761.2 h10 M978.8,756.2 v10" class="thin"/>
+<line x1="978.8" y1="761.2" x2="958.44" y2="781.56" class="dl" marker-end="url(#ar)"/>
+<text x="992" y="734" class="dt">R1</text>
+<text x="950" y="808" class="dts">Container</text>
+<path d="M1058,718 L1058,770.8 A19.2 19.2 0 0 0 1077.2,790 L1130,790" class="obj" fill="none"/>
+<path d="M1072.2,770.8 h10 M1077.2,765.8 v10" class="thin"/>
+<line x1="1077.2" y1="770.8" x2="1063.62" y2="784.38" class="dl" marker-end="url(#ar)"/>
+<text x="1100" y="734" class="dt">R2</text>
+<text x="1058" y="808" class="dts">Well</text>
+<path d="M1166,718 L1166,770.8 A19.2 19.2 0 0 0 1185.2,790 L1238,790" class="obj" fill="none"/>
+<path d="M1180.2,770.8 h10 M1185.2,765.8 v10" class="thin"/>
+<line x1="1185.2" y1="770.8" x2="1171.62" y2="784.38" class="dl" marker-end="url(#ar)"/>
+<text x="1208" y="734" class="dt">R3</text>
+<text x="1166" y="808" class="dts">Trail slot</text>
+<path d="M1274,718 L1274,756.4 A33.6 33.6 0 0 0 1307.6,790 L1346,790" class="obj" fill="none"/>
+<path d="M1302.6,756.4 h10 M1307.6,751.4 v10" class="thin"/>
+<line x1="1307.6" y1="756.4" x2="1283.84" y2="780.16" class="dl" marker-end="url(#ar)"/>
+<text x="1316" y="734" class="dt">R4</text>
+<text x="1274" y="808" class="dts">Pill (h = H3)</text>
+<text x="1120" y="834" class="vt" text-anchor="middle">Radius details</text>
+<text x="1120" y="848" class="dts" text-anchor="middle">Scale 2.4:1</text>
+<rect x="97" y="283" width="206" height="122" class="env"/>
+<rect x="113" y="293" width="174" height="90" rx="6" fill="url(#hat)" class="hs"/>
+<rect x="110" y="290" width="180" height="96" rx="6" class="obj" fill-opacity="0.85"/>
+<line x1="100" y1="283" x2="142" y2="283" class="ext"/>
+<line x1="113" y1="290" x2="142" y2="290" class="ext"/>
+<line x1="137" y1="270" x2="137" y2="283" class="dl" marker-end="url(#ar)"/>
+<line x1="137" y1="303" x2="137" y2="290" class="dl" marker-end="url(#ar)"/>
+<line x1="137" y1="283" x2="137" y2="290" class="dl"/>
+<text x="143" y="290.5" class="dt" text-anchor="start">E1</text>
+<line x1="97" y1="402" x2="97" y2="391.83" class="ext"/>
+<line x1="110" y1="389" x2="110" y2="401.83" class="ext"/>
+<line x1="84" y1="396.83" x2="97" y2="396.83" class="dl" marker-end="url(#ar)"/>
+<line x1="123" y1="396.83" x2="110" y2="396.83" class="dl" marker-end="url(#ar)"/>
+<line x1="97" y1="396.83" x2="110" y2="396.83" class="dl"/>
+<text x="103.5" y="409.83" class="dt" text-anchor="middle">E2</text>
+<line x1="290" y1="389" x2="290" y2="401.83" class="ext"/>
+<line x1="303" y1="402" x2="303" y2="391.83" class="ext"/>
+<line x1="277" y1="396.83" x2="290" y2="396.83" class="dl" marker-end="url(#ar)"/>
+<line x1="316" y1="396.83" x2="303" y2="396.83" class="dl" marker-end="url(#ar)"/>
+<line x1="290" y1="396.83" x2="303" y2="396.83" class="dl"/>
+<text x="296.5" y="409.83" class="dt" text-anchor="middle">E2</text>
+<line x1="200" y1="373" x2="200" y2="386" class="dl" marker-end="url(#ar)"/>
+<line x1="200" y1="418" x2="200" y2="405" class="dl" marker-end="url(#ar)"/>
+<line x1="200" y1="386" x2="200" y2="405" class="dl"/>
+<text x="206" y="399.5" class="dt" text-anchor="start">E3</text>
+<rect x="311" y="285" width="12" height="12" class="nb"/>
+<text x="317" y="294.5" class="nbt" text-anchor="middle">5</text>
+<text x="200" y="451" class="vt" text-anchor="middle">Shadow envelope</text>
+<text x="200" y="465" class="dts" text-anchor="middle">Scale 0.5:1 · E1 / E2 / E3 from Y, BL, SP</text>
+<line x1="935" y1="872" x2="935" y2="959.1" class="ph"/>
+<line x1="1169" y1="872" x2="1169" y2="959.1" class="ph"/>
+<rect x="937.6" y="885" width="228.8" height="61.1" rx="5.2" class="well"/>
+<rect x="943.45" y="890.85" width="217.1" height="18.2" rx="2" class="slot"/>
+<text x="1052" y="903.15" class="sl" text-anchor="middle">Content slot · fill</text>
+<rect x="943.45" y="914.25" width="217.1" height="10.4" rx="2" class="slot"/>
+<text x="1052" y="922.65" class="sl" text-anchor="middle">Content slot · fill</text>
+<rect x="943.45" y="929.85" width="217.1" height="10.4" rx="2" class="slot"/>
+<text x="1052" y="938.25" class="sl" text-anchor="middle">Content slot · fill</text>
+<line x1="935.65" y1="962.1" x2="935.65" y2="968" class="ext"/>
+<line x1="937.6" y1="949.1" x2="937.6" y2="968" class="ext"/>
+<line x1="922.65" y1="963" x2="935.65" y2="963" class="dl" marker-end="url(#ar)"/>
+<line x1="950.6" y1="963" x2="937.6" y2="963" class="dl" marker-end="url(#ar)"/>
+<line x1="935.65" y1="963" x2="937.6" y2="963" class="dl"/>
+<text x="926.63" y="976" class="dt" text-anchor="middle">S6</text>
+<line x1="943.45" y1="943.25" x2="943.45" y2="968" class="ext"/>
+<line x1="925.25" y1="963" x2="938.25" y2="963" class="dl" marker-end="url(#ar)"/>
+<line x1="956.45" y1="963" x2="943.45" y2="963" class="dl" marker-end="url(#ar)"/>
+<line x1="938.25" y1="963" x2="943.45" y2="963" class="dl"/>
+<text x="948.85" y="976" class="dt" text-anchor="middle">S2</text>
+<line x1="1160.55" y1="943.25" x2="1160.55" y2="968" class="ext"/>
+<line x1="943.45" y1="963" x2="1160.55" y2="963" class="dl" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text x="1052" y="976" class="dts" text-anchor="middle">FILL</text>
+<line x1="1165.75" y1="943.25" x2="1165.75" y2="968" class="ext"/>
+<line x1="1147.55" y1="963" x2="1160.55" y2="963" class="dl" marker-end="url(#ar)"/>
+<line x1="1178.75" y1="963" x2="1165.75" y2="963" class="dl" marker-end="url(#ar)"/>
+<line x1="1160.55" y1="963" x2="1165.75" y2="963" class="dl"/>
+<text x="1157.15" y="976" class="dt" text-anchor="middle">S2</text>
+<line x1="1166.4" y1="949.1" x2="1166.4" y2="968" class="ext"/>
+<line x1="1168.35" y1="962.1" x2="1168.35" y2="968" class="ext"/>
+<line x1="1153.4" y1="963" x2="1166.4" y2="963" class="dl" marker-end="url(#ar)"/>
+<line x1="1181.35" y1="963" x2="1168.35" y2="963" class="dl" marker-end="url(#ar)"/>
+<line x1="1166.4" y1="963" x2="1168.35" y2="963" class="dl"/>
+<text x="1177.38" y="976" class="dt" text-anchor="middle">S6</text>
+<line x1="1169.4" y1="885.65" x2="1190.9" y2="885.65" class="ext"/>
+<line x1="1169.4" y1="890.85" x2="1190.9" y2="890.85" class="ext"/>
+<line x1="1185.9" y1="872.65" x2="1185.9" y2="885.65" class="dl" marker-end="url(#ar)"/>
+<line x1="1185.9" y1="903.85" x2="1185.9" y2="890.85" class="dl" marker-end="url(#ar)"/>
+<line x1="1185.9" y1="885.65" x2="1185.9" y2="890.85" class="dl"/>
+<text x="1191.9" y="892.25" class="dt" text-anchor="start">S2</text>
+<line x1="1169.4" y1="909.05" x2="1190.9" y2="909.05" class="ext"/>
+<line x1="1169.4" y1="914.25" x2="1190.9" y2="914.25" class="ext"/>
+<line x1="1185.9" y1="896.05" x2="1185.9" y2="909.05" class="dl" marker-end="url(#ar)"/>
+<line x1="1185.9" y1="927.25" x2="1185.9" y2="914.25" class="dl" marker-end="url(#ar)"/>
+<line x1="1185.9" y1="909.05" x2="1185.9" y2="914.25" class="dl"/>
+<text x="1191.9" y="915.65" class="dt" text-anchor="start">S3</text>
+<line x1="1169.4" y1="924.65" x2="1190.9" y2="924.65" class="ext"/>
+<line x1="1169.4" y1="929.85" x2="1190.9" y2="929.85" class="ext"/>
+<line x1="1185.9" y1="911.65" x2="1185.9" y2="924.65" class="dl" marker-end="url(#ar)"/>
+<line x1="1185.9" y1="942.85" x2="1185.9" y2="929.85" class="dl" marker-end="url(#ar)"/>
+<line x1="1185.9" y1="924.65" x2="1185.9" y2="929.85" class="dl"/>
+<text x="1191.9" y="931.25" class="dt" text-anchor="start">S3</text>
+<line x1="1169.4" y1="940.25" x2="1190.9" y2="940.25" class="ext"/>
+<line x1="1169.4" y1="945.45" x2="1190.9" y2="945.45" class="ext"/>
+<line x1="1185.9" y1="927.25" x2="1185.9" y2="940.25" class="dl" marker-end="url(#ar)"/>
+<line x1="1185.9" y1="958.45" x2="1185.9" y2="945.45" class="dl" marker-end="url(#ar)"/>
+<line x1="1185.9" y1="940.25" x2="1185.9" y2="945.45" class="dl"/>
+<text x="1191.9" y="946.85" class="dt" text-anchor="start">S2</text>
+<rect x="1150" y="871.2" width="12" height="12" class="nb"/>
+<text x="1156" y="880.7" class="nbt" text-anchor="middle">2</text>
+<text x="1052" y="1012" class="vt" text-anchor="middle">Detail B · body well</text>
+<text x="1052" y="1026" class="dts" text-anchor="middle">Scale 0.65:1</text>
+<text x="1426" y="78" class="vt">Spacing</text>
+<rect x="1426" y="86" width="40" height="17" class="thin"/>
+<text x="1432" y="98" class="th" text-anchor="start">Code</text>
+<rect x="1466" y="86" width="88" height="17" class="thin"/>
+<text x="1510" y="98" class="th" text-anchor="middle">Variable</text>
+<rect x="1554" y="86" width="96" height="17" class="thin"/>
+<text x="1602" y="98" class="th" text-anchor="middle">Value</text>
+<rect x="1426" y="103" width="40" height="17" class="thin"/>
+<text x="1432" y="115" class="tc" text-anchor="start">S1</text>
+<rect x="1466" y="103" width="88" height="17" class="thin"/>
+<text x="1510" y="115" class="tc" text-anchor="middle">card-pad</text>
+<rect x="1554" y="103" width="96" height="17" class="thin"/>
+<text x="1602" y="115" class="tc" text-anchor="middle">10</text>
+<rect x="1426" y="120" width="40" height="17" class="thin"/>
+<text x="1432" y="132" class="tc" text-anchor="start">S2</text>
+<rect x="1466" y="120" width="88" height="17" class="thin"/>
+<text x="1510" y="132" class="tc" text-anchor="middle">well-pad</text>
+<rect x="1554" y="120" width="96" height="17" class="thin"/>
+<text x="1602" y="132" class="tc" text-anchor="middle">8</text>
+<rect x="1426" y="137" width="40" height="17" class="thin"/>
+<text x="1432" y="149" class="tc" text-anchor="start">S3</text>
+<rect x="1466" y="137" width="88" height="17" class="thin"/>
+<text x="1510" y="149" class="tc" text-anchor="middle">stack-gap</text>
+<rect x="1554" y="137" width="96" height="17" class="thin"/>
+<text x="1602" y="149" class="tc" text-anchor="middle">8</text>
+<rect x="1426" y="154" width="40" height="17" class="thin"/>
+<text x="1432" y="166" class="tc" text-anchor="start">S4</text>
+<rect x="1466" y="154" width="88" height="17" class="thin"/>
+<text x="1510" y="166" class="tc" text-anchor="middle">gap-min</text>
+<rect x="1554" y="154" width="96" height="17" class="thin"/>
+<text x="1602" y="166" class="tc" text-anchor="middle">8</text>
+<rect x="1426" y="171" width="40" height="17" class="thin"/>
+<text x="1432" y="183" class="tc" text-anchor="start">S5</text>
+<rect x="1466" y="171" width="88" height="17" class="thin"/>
+<text x="1510" y="183" class="tc" text-anchor="middle">lead-gap</text>
+<rect x="1554" y="171" width="96" height="17" class="thin"/>
+<text x="1602" y="183" class="tc" text-anchor="middle">6</text>
+<rect x="1426" y="188" width="40" height="17" class="thin"/>
+<text x="1432" y="200" class="tc" text-anchor="start">S6</text>
+<rect x="1466" y="188" width="88" height="17" class="thin"/>
+<text x="1510" y="200" class="tc" text-anchor="middle">well-inset</text>
+<rect x="1554" y="188" width="96" height="17" class="thin"/>
+<text x="1602" y="200" class="tc" text-anchor="middle">3</text>
+<text x="1426" y="233" class="vt">Size</text>
+<rect x="1426" y="241" width="40" height="17" class="thin"/>
+<text x="1432" y="253" class="th" text-anchor="start">Code</text>
+<rect x="1466" y="241" width="88" height="17" class="thin"/>
+<text x="1510" y="253" class="th" text-anchor="middle">Variable</text>
+<rect x="1554" y="241" width="96" height="17" class="thin"/>
+<text x="1602" y="253" class="th" text-anchor="middle">Value</text>
+<rect x="1426" y="258" width="40" height="17" class="thin"/>
+<text x="1432" y="270" class="tc" text-anchor="start">B</text>
+<rect x="1466" y="258" width="88" height="17" class="thin"/>
+<text x="1510" y="270" class="tc" text-anchor="middle">border</text>
+<rect x="1554" y="258" width="96" height="17" class="thin"/>
+<text x="1602" y="270" class="tc" text-anchor="middle">1</text>
+<rect x="1426" y="275" width="40" height="17" class="thin"/>
+<text x="1432" y="287" class="tc" text-anchor="start">Z1</text>
+<rect x="1466" y="275" width="88" height="17" class="thin"/>
+<text x="1510" y="287" class="tc" text-anchor="middle">lead-size</text>
+<rect x="1554" y="275" width="96" height="17" class="thin"/>
+<text x="1602" y="287" class="tc" text-anchor="middle">14</text>
+<rect x="1426" y="292" width="40" height="17" class="thin"/>
+<text x="1432" y="304" class="tc" text-anchor="start">H3</text>
+<rect x="1466" y="292" width="88" height="17" class="thin"/>
+<text x="1510" y="304" class="tc" text-anchor="middle">action-h</text>
+<rect x="1554" y="292" width="96" height="17" class="thin"/>
+<text x="1602" y="304" class="tc" text-anchor="middle">28</text>
+<rect x="1426" y="309" width="40" height="17" class="thin"/>
+<text x="1432" y="321" class="tc" text-anchor="start">H4</text>
+<rect x="1466" y="309" width="88" height="17" class="thin"/>
+<text x="1510" y="321" class="tc" text-anchor="middle">trail-h</text>
+<rect x="1554" y="309" width="96" height="17" class="thin"/>
+<text x="1602" y="321" class="tc" text-anchor="middle">18</text>
+<rect x="1426" y="326" width="40" height="17" class="thin"/>
+<text x="1432" y="338" class="tc" text-anchor="start">H1</text>
+<rect x="1466" y="326" width="88" height="17" class="thin"/>
+<text x="1510" y="338" class="tc" text-anchor="middle">header-min</text>
+<rect x="1554" y="326" width="96" height="17" class="thin"/>
+<text x="1602" y="338" class="tc" text-anchor="middle">2·S1+H3 = 48</text>
+<rect x="1426" y="343" width="40" height="17" class="thin"/>
+<text x="1432" y="355" class="tc" text-anchor="start">H2</text>
+<rect x="1466" y="343" width="88" height="17" class="thin"/>
+<text x="1510" y="355" class="tc" text-anchor="middle">footer-h</text>
+<rect x="1554" y="343" width="96" height="17" class="thin"/>
+<text x="1602" y="355" class="tc" text-anchor="middle">2·S1+H3 = 48</text>
+<rect x="1426" y="360" width="40" height="17" class="thin"/>
+<text x="1432" y="372" class="tc" text-anchor="start">W</text>
+<rect x="1466" y="360" width="88" height="17" class="thin"/>
+<text x="1510" y="372" class="tc" text-anchor="middle">card-w</text>
+<rect x="1554" y="360" width="96" height="17" class="thin"/>
+<text x="1602" y="372" class="tc" text-anchor="middle">320–420</text>
+<text x="1426" y="405" class="vt">Radius</text>
+<rect x="1426" y="413" width="40" height="17" class="thin"/>
+<text x="1432" y="425" class="th" text-anchor="start">Code</text>
+<rect x="1466" y="413" width="88" height="17" class="thin"/>
+<text x="1510" y="425" class="th" text-anchor="middle">Variable</text>
+<rect x="1554" y="413" width="96" height="17" class="thin"/>
+<text x="1602" y="425" class="th" text-anchor="middle">Value</text>
+<rect x="1426" y="430" width="40" height="17" class="thin"/>
+<text x="1432" y="442" class="tc" text-anchor="start">R1</text>
+<rect x="1466" y="430" width="88" height="17" class="thin"/>
+<text x="1510" y="442" class="tc" text-anchor="middle">r-card</text>
+<rect x="1554" y="430" width="96" height="17" class="thin"/>
+<text x="1602" y="442" class="tc" text-anchor="middle">12</text>
+<rect x="1426" y="447" width="40" height="17" class="thin"/>
+<text x="1432" y="459" class="tc" text-anchor="start">R2</text>
+<rect x="1466" y="447" width="88" height="17" class="thin"/>
+<text x="1510" y="459" class="tc" text-anchor="middle">r-well</text>
+<rect x="1554" y="447" width="96" height="17" class="thin"/>
+<text x="1602" y="459" class="tc" text-anchor="middle">R1−B−S6 = 8</text>
+<rect x="1426" y="464" width="40" height="17" class="thin"/>
+<text x="1432" y="476" class="tc" text-anchor="start">R3</text>
+<rect x="1466" y="464" width="88" height="17" class="thin"/>
+<text x="1510" y="476" class="tc" text-anchor="middle">r-trail</text>
+<rect x="1554" y="464" width="96" height="17" class="thin"/>
+<text x="1602" y="476" class="tc" text-anchor="middle">8</text>
+<rect x="1426" y="481" width="40" height="17" class="thin"/>
+<text x="1432" y="493" class="tc" text-anchor="start">R4</text>
+<rect x="1466" y="481" width="88" height="17" class="thin"/>
+<text x="1510" y="493" class="tc" text-anchor="middle">r-pill</text>
+<rect x="1554" y="481" width="96" height="17" class="thin"/>
+<text x="1602" y="493" class="tc" text-anchor="middle">h ÷ 2</text>
+<text x="1426" y="526" class="vt">Shadow</text>
+<rect x="1426" y="534" width="40" height="17" class="thin"/>
+<text x="1432" y="546" class="th" text-anchor="start">Code</text>
+<rect x="1466" y="534" width="88" height="17" class="thin"/>
+<text x="1510" y="546" class="th" text-anchor="middle">Variable</text>
+<rect x="1554" y="534" width="96" height="17" class="thin"/>
+<text x="1602" y="546" class="th" text-anchor="middle">Value</text>
+<rect x="1426" y="551" width="40" height="17" class="thin"/>
+<text x="1432" y="563" class="tc" text-anchor="start">Y</text>
+<rect x="1466" y="551" width="88" height="17" class="thin"/>
+<text x="1510" y="563" class="tc" text-anchor="middle">shadow-y</text>
+<rect x="1554" y="551" width="96" height="17" class="thin"/>
+<text x="1602" y="563" class="tc" text-anchor="middle">12</text>
+<rect x="1426" y="568" width="40" height="17" class="thin"/>
+<text x="1432" y="580" class="tc" text-anchor="start">BL</text>
+<rect x="1466" y="568" width="88" height="17" class="thin"/>
+<text x="1510" y="580" class="tc" text-anchor="middle">shadow-blur</text>
+<rect x="1554" y="568" width="96" height="17" class="thin"/>
+<text x="1602" y="580" class="tc" text-anchor="middle">32</text>
+<rect x="1426" y="585" width="40" height="17" class="thin"/>
+<text x="1432" y="597" class="tc" text-anchor="start">SP</text>
+<rect x="1466" y="585" width="88" height="17" class="thin"/>
+<text x="1510" y="597" class="tc" text-anchor="middle">shadow-spread</text>
+<rect x="1554" y="585" width="96" height="17" class="thin"/>
+<text x="1602" y="597" class="tc" text-anchor="middle">−6</text>
+<rect x="1426" y="602" width="40" height="17" class="thin"/>
+<text x="1432" y="614" class="tc" text-anchor="start">E1</text>
+<rect x="1466" y="602" width="88" height="17" class="thin"/>
+<text x="1510" y="614" class="tc" text-anchor="middle">env-top</text>
+<rect x="1554" y="602" width="96" height="17" class="thin"/>
+<text x="1602" y="614" class="tc" text-anchor="middle">BL+SP−Y = 14</text>
+<rect x="1426" y="619" width="40" height="17" class="thin"/>
+<text x="1432" y="631" class="tc" text-anchor="start">E2</text>
+<rect x="1466" y="619" width="88" height="17" class="thin"/>
+<text x="1510" y="631" class="tc" text-anchor="middle">env-side</text>
+<rect x="1554" y="619" width="96" height="17" class="thin"/>
+<text x="1602" y="631" class="tc" text-anchor="middle">BL+SP = 26</text>
+<rect x="1426" y="636" width="40" height="17" class="thin"/>
+<text x="1432" y="648" class="tc" text-anchor="start">E3</text>
+<rect x="1466" y="636" width="88" height="17" class="thin"/>
+<text x="1510" y="648" class="tc" text-anchor="middle">env-bottom</text>
+<rect x="1554" y="636" width="96" height="17" class="thin"/>
+<text x="1602" y="648" class="tc" text-anchor="middle">BL+SP+Y = 38</text>
+</g>
+<text x="22" y="1276" class="lbl">2026-10-28  |  UI COMPONENT REFERENCE</text>
+<text x="1678" y="1276" class="lbl" text-anchor="end">Compact card, architecture  |  1</text>
+</svg>

@@ -1,0 +1,10 @@
+{
+  "name": "dimdraw",
+  "version": "0.1.0",
+  "description": "Turn your card's design tokens into an Apple-style dimensional drawing, as one SVG that renders right in your README.",
+  "type": "module",
+  "bin": { "dimdraw": "./dimdraw.mjs" },
+  "scripts": { "test": "node --test test/dimdraw.test.mjs" },
+  "engines": { "node": ">=18" },
+  "license": "MIT"
+}

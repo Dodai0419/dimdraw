@@ -1,0 +1,6 @@
+{
+  "name": "dimdraw",
+  "description": "Turn your card's design tokens into an Apple-style dimensional drawing, as one SVG that renders right in your README.",
+  "version": "0.1.0",
+  "author": { "name": "Dodai0419" }
+}

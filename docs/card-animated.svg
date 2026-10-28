@@ -1,0 +1,552 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 1290" role="img" aria-label="Card dimensional drawing: plan view, shadow envelope, exploded view, nested corner, radius and body well details, variable tables">
+<style>.u{font-family:var(--f)}svg{--ink:#111;--ink2:#444;--ink3:#7a7a7a;--fill:#f3f3f3;--fill2:#e6e6e6;--sheet:#fff;--f:Arimo,'Helvetica Neue',Helvetica,Arial,sans-serif}
+.bg{fill:#fff}.border{fill:none;stroke:var(--ink);stroke-width:1.2}.obj{fill:var(--sheet);stroke:var(--ink);stroke-width:1.6;stroke-linejoin:round}
+.well{fill:var(--fill);stroke:var(--ink);stroke-width:1}.slot{fill:none;stroke:var(--ink2);stroke-width:.8;stroke-dasharray:4 3}
+.hug{fill:var(--fill2);stroke:var(--ink);stroke-width:1}.thin{fill:none;stroke:var(--ink);stroke-width:.8}
+.ph{fill:none;stroke:var(--ink3);stroke-width:.8;stroke-dasharray:14 3 3 3}.cl{fill:none;stroke:var(--ink3);stroke-width:.7;stroke-dasharray:16 3 2 3}
+.dl{stroke:var(--ink);stroke-width:.7;fill:none}.ext{stroke:var(--ink);stroke-width:.55;fill:none}.arrow{fill:var(--ink)}
+.hl{stroke:var(--ink2);stroke-width:.7}.hs{stroke:var(--ink);stroke-width:.8}.env{fill:none;stroke:var(--ink);stroke-width:.8;stroke-dasharray:10 3 2 3}
+.dt{font:400 11px var(--f);fill:var(--ink);paint-order:stroke;stroke:var(--sheet);stroke-width:4px;stroke-linejoin:round}
+.dts{font:400 9.5px var(--f);fill:var(--ink2);letter-spacing:.06em;text-transform:uppercase;paint-order:stroke;stroke:var(--sheet);stroke-width:3px}
+.sl{font:400 9px var(--f);fill:var(--ink2);letter-spacing:.08em;text-transform:uppercase}
+.nt{font:400 11.5px var(--f);fill:var(--ink);letter-spacing:.06em;text-transform:uppercase}.nth{font:700 13px var(--f);fill:var(--ink);letter-spacing:.06em}
+.vt{font:400 12px var(--f);fill:var(--ink);letter-spacing:.1em;text-transform:uppercase}.big{font:400 40px var(--f);fill:var(--ink);letter-spacing:.1em;text-transform:uppercase}
+.nb{fill:var(--sheet);stroke:var(--ink);stroke-width:.9}.nbt{font:400 9.5px var(--f);fill:var(--ink)}.lead{stroke:var(--ink);stroke-width:.7;fill:none}.dot{fill:var(--ink)}
+.th{font:400 10.5px var(--f);fill:var(--ink);letter-spacing:.05em;text-transform:uppercase}.tc{font:400 10.5px var(--f);fill:var(--ink)}
+.lbl{font:400 9.5px var(--f);fill:var(--ink2);letter-spacing:.06em;text-transform:uppercase}.v{font:400 13px var(--f);fill:var(--ink);letter-spacing:.05em;text-transform:uppercase}.fv{font:400 18px var(--f);fill:var(--ink);letter-spacing:.06em}@keyframes dd-in{from{opacity:0}}.a{animation:dd-in .5s both}</style>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,1.7 L10,5 L0,8.3 z" class="arrow"/></marker>
+<pattern id="hat" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="5" class="hl"/></pattern></defs>
+<rect class="bg" width="1700" height="1290"/>
+<rect x="20" y="20" width="1660" height="154" rx="16" class="border a" style="animation-delay:0.000s"/>
+<text x="40" y="44" class="lbl a" style="animation-delay:0.012s">UI component · dimensional drawing</text>
+<text x="40" y="88" class="big a" style="animation-delay:0.024s">Card</text>
+<text x="40" y="112" class="lbl a" style="animation-delay:0.036s">Architecture only: slots, spacing, radii and layers. Content is out of scope.</text>
+<line x1="626" y1="20" x2="626" y2="116" class="thin a" style="animation-delay:0.048s"/>
+<text x="640" y="44" class="lbl a" style="animation-delay:0.060s">Dwg no.</text>
+<text x="640" y="64" class="v a" style="animation-delay:0.072s">UI-CARD-001</text>
+<line x1="796" y1="20" x2="796" y2="116" class="thin a" style="animation-delay:0.084s"/>
+<text x="810" y="44" class="lbl a" style="animation-delay:0.096s">Rev</text>
+<text x="810" y="64" class="v a" style="animation-delay:0.108s">B · 2026-10-23</text>
+<line x1="966" y1="20" x2="966" y2="116" class="thin a" style="animation-delay:0.120s"/>
+<text x="980" y="44" class="lbl a" style="animation-delay:0.132s">Units</text>
+<text x="980" y="64" class="v a" style="animation-delay:0.144s">CSS px @ 1×</text>
+<line x1="1136" y1="20" x2="1136" y2="116" class="thin a" style="animation-delay:0.156s"/>
+<text x="1150" y="44" class="lbl a" style="animation-delay:0.168s">Scale</text>
+<text x="1150" y="64" class="v a" style="animation-delay:0.180s">1:1 unless noted</text>
+<line x1="1306" y1="20" x2="1306" y2="116" class="thin a" style="animation-delay:0.192s"/>
+<text x="1320" y="44" class="lbl a" style="animation-delay:0.204s">Source</text>
+<text x="1320" y="64" class="v a" style="animation-delay:0.216s">Card Showcase · 20 instances</text>
+<line x1="20" y1="116" x2="1680" y2="116" class="thin a" style="animation-delay:0.228s"/>
+<text x="40" y="136" class="lbl a" style="animation-delay:0.240s">W · card-w</text>
+<text x="40" y="160" class="fv a" style="animation-delay:0.252s">420–680</text>
+<text x="276" y="136" class="lbl a" style="animation-delay:0.264s">S1 · card-pad</text>
+<text x="276" y="160" class="fv a" style="animation-delay:0.276s">14</text>
+<text x="512" y="136" class="lbl a" style="animation-delay:0.288s">S2 · well-pad</text>
+<text x="512" y="160" class="fv a" style="animation-delay:0.300s">12</text>
+<text x="748" y="136" class="lbl a" style="animation-delay:0.312s">S6 · well-inset</text>
+<text x="748" y="160" class="fv a" style="animation-delay:0.324s">4</text>
+<text x="984" y="136" class="lbl a" style="animation-delay:0.336s">H1 · header-min</text>
+<text x="984" y="160" class="fv a" style="animation-delay:0.348s">2·S1 + H3</text>
+<text x="1220" y="136" class="lbl a" style="animation-delay:0.360s">R1 · r-card</text>
+<text x="1220" y="160" class="fv a" style="animation-delay:0.372s">16</text>
+<text x="1456" y="136" class="lbl a" style="animation-delay:0.384s">R2 · r-well</text>
+<text x="1456" y="160" class="fv a" style="animation-delay:0.396s">R1 − B − S6</text>
+<g transform="translate(0 190)">
+<rect x="20" y="20" width="1660" height="1020" rx="16" class="border a" style="animation-delay:0.408s"/>
+<text x="50" y="58" class="nth a" style="animation-delay:0.420s">NOTES:</text>
+<text x="112" y="58" class="nt a" style="animation-delay:0.432s">(UNLESS OTHERWISE SPECIFIED)</text>
+<rect x="50" y="78" width="12" height="12" class="nb a" style="animation-delay:0.444s"/>
+<text x="56" y="87.5" class="nbt a" text-anchor="middle" style="animation-delay:0.456s">1</text>
+<text x="72" y="88" class="nt a" style="animation-delay:0.468s">TITLE SLOT FLEXES (MIN-WIDTH 0) AND WRAPS. HEADER GROWS PAST H1.</text>
+<rect x="50" y="102" width="12" height="12" class="nb a" style="animation-delay:0.480s"/>
+<text x="56" y="111.5" class="nbt a" text-anchor="middle" style="animation-delay:0.492s">2</text>
+<text x="72" y="112" class="nt a" style="animation-delay:0.504s">BODY WELL INSET S6 FROM CONTAINER. WELL RADIUS R2 = R1 − B − S6 (DERIVED).</text>
+<rect x="50" y="126" width="12" height="12" class="nb a" style="animation-delay:0.516s"/>
+<text x="56" y="135.5" class="nbt a" text-anchor="middle" style="animation-delay:0.528s">3</text>
+<text x="72" y="136" class="nt a" style="animation-delay:0.540s">TRAIL AND ACTION SLOTS HUG THEIR CONTENT AND NEVER SHRINK.</text>
+<rect x="50" y="150" width="12" height="12" class="nb a" style="animation-delay:0.552s"/>
+<text x="56" y="159.5" class="nbt a" text-anchor="middle" style="animation-delay:0.564s">4</text>
+<text x="72" y="160" class="nt a" style="animation-delay:0.576s">META SLOT WRAPS BEFORE THE ACTION MOVES.</text>
+<rect x="50" y="174" width="12" height="12" class="nb a" style="animation-delay:0.588s"/>
+<text x="56" y="183.5" class="nbt a" text-anchor="middle" style="animation-delay:0.600s">5</text>
+<text x="72" y="184" class="nt a" style="animation-delay:0.612s">DO NOT CLIP THE SHADOW: KEEP E1 ABOVE, E2 EACH SIDE, E3 BELOW.</text>
+<rect x="50" y="198" width="12" height="12" class="nb a" style="animation-delay:0.624s"/>
+<text x="56" y="207.5" class="nbt a" text-anchor="middle" style="animation-delay:0.636s">6</text>
+<text x="72" y="208" class="nt a" style="animation-delay:0.648s">WIDTH W BETWEEN 420 MIN AND 680 MAX. HEIGHT HUGS CONTENT.</text>
+<rect x="50" y="222" width="12" height="12" class="nb a" style="animation-delay:0.660s"/>
+<text x="56" y="231.5" class="nbt a" text-anchor="middle" style="animation-delay:0.672s">7</text>
+<text x="72" y="232" class="nt a" style="animation-delay:0.684s">ACTION HIT AREA 44 MIN ON TOUCH LAYOUTS (H3 DRAWN).</text>
+<rect x="660" y="290" width="660" height="250.8" rx="17.6" class="obj a" style="animation-delay:0.696s"/>
+<line x1="661.1" y1="361.5" x2="1318.9" y2="361.5" class="ph a" style="animation-delay:0.708s"/>
+<line x1="661.1" y1="469.3" x2="1318.9" y2="469.3" class="ph a" style="animation-delay:0.720s"/>
+<rect x="665.5" y="361.5" width="649" height="107.8" rx="12.1" class="well a" style="animation-delay:0.732s"/>
+<rect x="676.5" y="317.5" width="17.6" height="17.6" class="thin a" style="animation-delay:0.744s"/>
+<path d="M676.5,317.5 L694.1,335.1 M694.1,317.5 L676.5,335.1" class="thin a" style="animation-delay:0.756s"/>
+<rect x="702.9" y="315.3" width="490.6" height="22" rx="2.2" class="slot a" style="animation-delay:0.768s"/>
+<text x="708.9" y="329.5" class="sl a" text-anchor="start" style="animation-delay:0.780s">Title slot · flex</text>
+<rect x="1206.7" y="314.2" width="96.8" height="24.2" rx="11" class="hug a" style="animation-delay:0.792s"/>
+<text x="1255.1" y="329.5" class="sl a" text-anchor="middle" style="animation-delay:0.804s">Trail</text>
+<rect x="679.8" y="375.8" width="620.4" height="44" rx="2.2" class="slot a" style="animation-delay:0.816s"/>
+<text x="990" y="401" class="sl a" text-anchor="middle" style="animation-delay:0.828s">Content slot · fill</text>
+<rect x="679.8" y="433" width="620.4" height="22" rx="2.2" class="slot a" style="animation-delay:0.840s"/>
+<text x="990" y="447.2" class="sl a" text-anchor="middle" style="animation-delay:0.852s">Content slot · fill</text>
+<rect x="676.5" y="486.9" width="448.8" height="35.2" rx="2.2" class="slot a" style="animation-delay:0.864s"/>
+<text x="682.5" y="507.7" class="sl a" text-anchor="start" style="animation-delay:0.876s">Meta slot · flex · wraps</text>
+<rect x="1138.5" y="484.7" width="165" height="39.6" rx="19.8" class="hug a" style="animation-delay:0.888s"/>
+<text x="1221" y="507.7" class="sl a" text-anchor="middle" style="animation-delay:0.900s">Action</text>
+<line x1="642.4" y1="326.3" x2="1337.6" y2="326.3" class="cl a" style="animation-delay:0.912s"/>
+<line x1="642.4" y1="504.5" x2="1337.6" y2="504.5" class="cl a" style="animation-delay:0.924s"/>
+<rect x="1175.4" y="320.3" width="12" height="12" class="nb a" style="animation-delay:0.936s"/>
+<text x="1181.4" y="329.8" class="nbt a" text-anchor="middle" style="animation-delay:0.948s">1</text>
+<rect x="1286.5" y="320.3" width="12" height="12" class="nb a" style="animation-delay:0.960s"/>
+<text x="1292.5" y="329.8" class="nbt a" text-anchor="middle" style="animation-delay:0.972s">3</text>
+<rect x="1107.2" y="498.5" width="12" height="12" class="nb a" style="animation-delay:0.984s"/>
+<text x="1113.2" y="508" class="nbt a" text-anchor="middle" style="animation-delay:0.996s">4</text>
+<rect x="1270" y="498.5" width="12" height="12" class="nb a" style="animation-delay:1.008s"/>
+<text x="1276" y="508" class="nbt a" text-anchor="middle" style="animation-delay:1.020s">3</text>
+<rect x="1285.4" y="498.5" width="12" height="12" class="nb a" style="animation-delay:1.032s"/>
+<text x="1291.4" y="508" class="nbt a" text-anchor="middle" style="animation-delay:1.044s">7</text>
+<line x1="661.1" y1="287" x2="661.1" y2="252" class="ext a" style="animation-delay:1.056s"/>
+<line x1="676.5" y1="314.5" x2="676.5" y2="252" class="ext a" style="animation-delay:1.068s"/>
+<line x1="648.1" y1="257" x2="661.1" y2="257" class="dl a" marker-end="url(#ar)" style="animation-delay:1.080s"/>
+<line x1="689.5" y1="257" x2="676.5" y2="257" class="dl a" marker-end="url(#ar)" style="animation-delay:1.092s"/>
+<line x1="661.1" y1="257" x2="676.5" y2="257" class="dl a" style="animation-delay:1.104s"/>
+<text x="659.8" y="253" class="dt a" text-anchor="middle" style="animation-delay:1.116s">S1</text>
+<line x1="694.1" y1="314.5" x2="694.1" y2="252" class="ext a" style="animation-delay:1.128s"/>
+<line x1="663.5" y1="257" x2="676.5" y2="257" class="dl a" marker-end="url(#ar)" style="animation-delay:1.140s"/>
+<line x1="707.1" y1="257" x2="694.1" y2="257" class="dl a" marker-end="url(#ar)" style="animation-delay:1.152s"/>
+<line x1="676.5" y1="257" x2="694.1" y2="257" class="dl a" style="animation-delay:1.164s"/>
+<text x="685.3" y="241" class="dt a" text-anchor="middle" style="animation-delay:1.176s">Z1</text>
+<line x1="702.9" y1="312.3" x2="702.9" y2="252" class="ext a" style="animation-delay:1.188s"/>
+<line x1="681.1" y1="257" x2="694.1" y2="257" class="dl a" marker-end="url(#ar)" style="animation-delay:1.200s"/>
+<line x1="715.9" y1="257" x2="702.9" y2="257" class="dl a" marker-end="url(#ar)" style="animation-delay:1.212s"/>
+<line x1="694.1" y1="257" x2="702.9" y2="257" class="dl a" style="animation-delay:1.224s"/>
+<text x="707.5" y="253" class="dt a" text-anchor="middle" style="animation-delay:1.236s">S5</text>
+<line x1="1193.5" y1="312.3" x2="1193.5" y2="252" class="ext a" style="animation-delay:1.248s"/>
+<line x1="702.9" y1="257" x2="1193.5" y2="257" class="dl a" marker-start="url(#ar)" marker-end="url(#ar)" style="animation-delay:1.260s"/>
+<text x="948.2" y="253" class="dts a" text-anchor="middle" style="animation-delay:1.272s">FLEX</text>
+<line x1="1206.7" y1="311.2" x2="1206.7" y2="252" class="ext a" style="animation-delay:1.284s"/>
+<line x1="1180.5" y1="257" x2="1193.5" y2="257" class="dl a" marker-end="url(#ar)" style="animation-delay:1.296s"/>
+<line x1="1219.7" y1="257" x2="1206.7" y2="257" class="dl a" marker-end="url(#ar)" style="animation-delay:1.308s"/>
+<line x1="1193.5" y1="257" x2="1206.7" y2="257" class="dl a" style="animation-delay:1.320s"/>
+<text x="1200.1" y="253" class="dt a" text-anchor="middle" style="animation-delay:1.332s">S4</text>
+<line x1="1303.5" y1="311.2" x2="1303.5" y2="252" class="ext a" style="animation-delay:1.344s"/>
+<line x1="1206.7" y1="257" x2="1303.5" y2="257" class="dl a" marker-start="url(#ar)" marker-end="url(#ar)" style="animation-delay:1.356s"/>
+<text x="1255.1" y="253" class="dts a" text-anchor="middle" style="animation-delay:1.368s">HUG</text>
+<line x1="1318.9" y1="287" x2="1318.9" y2="252" class="ext a" style="animation-delay:1.380s"/>
+<line x1="1290.5" y1="257" x2="1303.5" y2="257" class="dl a" marker-end="url(#ar)" style="animation-delay:1.392s"/>
+<line x1="1331.9" y1="257" x2="1318.9" y2="257" class="dl a" marker-end="url(#ar)" style="animation-delay:1.404s"/>
+<line x1="1303.5" y1="257" x2="1318.9" y2="257" class="dl a" style="animation-delay:1.416s"/>
+<text x="1311.2" y="253" class="dt a" text-anchor="middle" style="animation-delay:1.428s">S1</text>
+<line x1="660" y1="249.6" x2="660" y2="216.8" class="ext a" style="animation-delay:1.440s"/>
+<line x1="1320" y1="249.6" x2="1320" y2="216.8" class="ext a" style="animation-delay:1.452s"/>
+<line x1="660" y1="221.8" x2="1320" y2="221.8" class="dl a" marker-start="url(#ar)" marker-end="url(#ar)" style="animation-delay:1.464s"/>
+<text x="990" y="217.8" class="dt a" text-anchor="middle" style="animation-delay:1.476s">W</text>
+<text x="990" y="202" class="dts a" text-anchor="middle" style="animation-delay:1.488s">W = 420 – 680 · REF 600</text>
+<rect x="1063.2" y="191.6" width="12" height="12" class="nb a" style="animation-delay:1.500s"/>
+<text x="1069.2" y="201.1" class="nbt a" text-anchor="middle" style="animation-delay:1.512s">6</text>
+<line x1="661.1" y1="543.8" x2="661.1" y2="578.8" class="ext a" style="animation-delay:1.524s"/>
+<line x1="676.5" y1="525.1" x2="676.5" y2="578.8" class="ext a" style="animation-delay:1.536s"/>
+<line x1="648.1" y1="573.8" x2="661.1" y2="573.8" class="dl a" marker-end="url(#ar)" style="animation-delay:1.548s"/>
+<line x1="689.5" y1="573.8" x2="676.5" y2="573.8" class="dl a" marker-end="url(#ar)" style="animation-delay:1.560s"/>
+<line x1="661.1" y1="573.8" x2="676.5" y2="573.8" class="dl a" style="animation-delay:1.572s"/>
+<text x="668.8" y="586.8" class="dt a" text-anchor="middle" style="animation-delay:1.584s">S1</text>
+<line x1="1125.3" y1="525.1" x2="1125.3" y2="578.8" class="ext a" style="animation-delay:1.596s"/>
+<line x1="676.5" y1="573.8" x2="1125.3" y2="573.8" class="dl a" marker-start="url(#ar)" marker-end="url(#ar)" style="animation-delay:1.608s"/>
+<text x="900.9" y="586.8" class="dts a" text-anchor="middle" style="animation-delay:1.620s">FLEX</text>
+<line x1="1138.5" y1="527.3" x2="1138.5" y2="578.8" class="ext a" style="animation-delay:1.632s"/>
+<line x1="1112.3" y1="573.8" x2="1125.3" y2="573.8" class="dl a" marker-end="url(#ar)" style="animation-delay:1.644s"/>
+<line x1="1151.5" y1="573.8" x2="1138.5" y2="573.8" class="dl a" marker-end="url(#ar)" style="animation-delay:1.656s"/>
+<line x1="1125.3" y1="573.8" x2="1138.5" y2="573.8" class="dl a" style="animation-delay:1.668s"/>
+<text x="1131.9" y="586.8" class="dt a" text-anchor="middle" style="animation-delay:1.680s">S4</text>
+<line x1="1303.5" y1="527.3" x2="1303.5" y2="578.8" class="ext a" style="animation-delay:1.692s"/>
+<line x1="1138.5" y1="573.8" x2="1303.5" y2="573.8" class="dl a" marker-start="url(#ar)" marker-end="url(#ar)" style="animation-delay:1.704s"/>
+<text x="1221" y="586.8" class="dts a" text-anchor="middle" style="animation-delay:1.716s">HUG</text>
+<line x1="1318.9" y1="543.8" x2="1318.9" y2="578.8" class="ext a" style="animation-delay:1.728s"/>
+<line x1="1290.5" y1="573.8" x2="1303.5" y2="573.8" class="dl a" marker-end="url(#ar)" style="animation-delay:1.740s"/>
+<line x1="1331.9" y1="573.8" x2="1318.9" y2="573.8" class="dl a" marker-end="url(#ar)" style="animation-delay:1.752s"/>
+<line x1="1303.5" y1="573.8" x2="1318.9" y2="573.8" class="dl a" style="animation-delay:1.764s"/>
+<text x="1311.2" y="586.8" class="dt a" text-anchor="middle" style="animation-delay:1.776s">S1</text>
+<line x1="657" y1="291.1" x2="591.2" y2="291.1" class="ext a" style="animation-delay:1.788s"/>
+<line x1="657" y1="361.5" x2="591.2" y2="361.5" class="ext a" style="animation-delay:1.800s"/>
+<line x1="596.2" y1="291.1" x2="596.2" y2="361.5" class="dl a" marker-start="url(#ar)" marker-end="url(#ar)" style="animation-delay:1.812s"/>
+<text x="591.2" y="326.3" class="dt a" text-anchor="middle" transform="rotate(-90 591.2 326.3)" style="animation-delay:1.824s">H1</text>
+<line x1="662.5" y1="469.3" x2="591.2" y2="469.3" class="ext a" style="animation-delay:1.836s"/>
+<line x1="596.2" y1="361.5" x2="596.2" y2="469.3" class="dl a" marker-start="url(#ar)" marker-end="url(#ar)" style="animation-delay:1.848s"/>
+<text x="591.2" y="415.4" class="dts a" text-anchor="middle" transform="rotate(-90 591.2 415.4)" style="animation-delay:1.860s">HUG</text>
+<line x1="657" y1="539.7" x2="591.2" y2="539.7" class="ext a" style="animation-delay:1.872s"/>
+<line x1="596.2" y1="469.3" x2="596.2" y2="539.7" class="dl a" marker-start="url(#ar)" marker-end="url(#ar)" style="animation-delay:1.884s"/>
+<text x="591.2" y="504.5" class="dt a" text-anchor="middle" transform="rotate(-90 591.2 504.5)" style="animation-delay:1.896s">H2</text>
+<line x1="588.8" y1="290" x2="549.4" y2="290" class="ext a" style="animation-delay:1.908s"/>
+<line x1="588.8" y1="540.8" x2="549.4" y2="540.8" class="ext a" style="animation-delay:1.920s"/>
+<line x1="554.4" y1="290" x2="554.4" y2="540.8" class="dl a" marker-start="url(#ar)" marker-end="url(#ar)" style="animation-delay:1.932s"/>
+<text x="549.4" y="415.4" class="dt a" text-anchor="middle" transform="rotate(-90 549.4 415.4)" style="animation-delay:1.944s">(REF 228)</text>
+<line x1="1323" y1="291.1" x2="1369" y2="291.1" class="ext a" style="animation-delay:1.956s"/>
+<line x1="1323" y1="306.5" x2="1369" y2="306.5" class="ext a" style="animation-delay:1.968s"/>
+<line x1="1364" y1="278.1" x2="1364" y2="291.1" class="dl a" marker-end="url(#ar)" style="animation-delay:1.980s"/>
+<line x1="1364" y1="319.5" x2="1364" y2="306.5" class="dl a" marker-end="url(#ar)" style="animation-delay:1.992s"/>
+<line x1="1364" y1="291.1" x2="1364" y2="306.5" class="dl a" style="animation-delay:2.004s"/>
+<text x="1370" y="302.8" class="dt a" text-anchor="start" style="animation-delay:2.016s">S1</text>
+<line x1="1323" y1="306.5" x2="1369" y2="306.5" class="ext a" style="animation-delay:2.028s"/>
+<line x1="1323" y1="346.1" x2="1369" y2="346.1" class="ext a" style="animation-delay:2.040s"/>
+<line x1="1364" y1="306.5" x2="1364" y2="346.1" class="dl a" marker-start="url(#ar)" marker-end="url(#ar)" style="animation-delay:2.052s"/>
+<text x="1370" y="330.3" class="dt a" text-anchor="start" style="animation-delay:2.064s">H3</text>
+<line x1="1323" y1="346.1" x2="1369" y2="346.1" class="ext a" style="animation-delay:2.076s"/>
+<line x1="1323" y1="361.5" x2="1369" y2="361.5" class="ext a" style="animation-delay:2.088s"/>
+<line x1="1364" y1="333.1" x2="1364" y2="346.1" class="dl a" marker-end="url(#ar)" style="animation-delay:2.100s"/>
+<line x1="1364" y1="374.5" x2="1364" y2="361.5" class="dl a" marker-end="url(#ar)" style="animation-delay:2.112s"/>
+<line x1="1364" y1="346.1" x2="1364" y2="361.5" class="dl a" style="animation-delay:2.124s"/>
+<text x="1370" y="357.8" class="dt a" text-anchor="start" style="animation-delay:2.136s">S1</text>
+<line x1="1323" y1="469.3" x2="1369" y2="469.3" class="ext a" style="animation-delay:2.148s"/>
+<line x1="1323" y1="484.7" x2="1369" y2="484.7" class="ext a" style="animation-delay:2.160s"/>
+<line x1="1364" y1="456.3" x2="1364" y2="469.3" class="dl a" marker-end="url(#ar)" style="animation-delay:2.172s"/>
+<line x1="1364" y1="497.7" x2="1364" y2="484.7" class="dl a" marker-end="url(#ar)" style="animation-delay:2.184s"/>
+<line x1="1364" y1="469.3" x2="1364" y2="484.7" class="dl a" style="animation-delay:2.196s"/>
+<text x="1370" y="481" class="dt a" text-anchor="start" style="animation-delay:2.208s">S1</text>
+<line x1="1323" y1="484.7" x2="1369" y2="484.7" class="ext a" style="animation-delay:2.220s"/>
+<line x1="1323" y1="524.3" x2="1369" y2="524.3" class="ext a" style="animation-delay:2.232s"/>
+<line x1="1364" y1="484.7" x2="1364" y2="524.3" class="dl a" marker-start="url(#ar)" marker-end="url(#ar)" style="animation-delay:2.244s"/>
+<text x="1370" y="508.5" class="dt a" text-anchor="start" style="animation-delay:2.256s">H3</text>
+<line x1="1323" y1="524.3" x2="1369" y2="524.3" class="ext a" style="animation-delay:2.268s"/>
+<line x1="1323" y1="539.7" x2="1369" y2="539.7" class="ext a" style="animation-delay:2.280s"/>
+<line x1="1364" y1="511.3" x2="1364" y2="524.3" class="dl a" marker-end="url(#ar)" style="animation-delay:2.292s"/>
+<line x1="1364" y1="552.7" x2="1364" y2="539.7" class="dl a" marker-end="url(#ar)" style="animation-delay:2.304s"/>
+<line x1="1364" y1="524.3" x2="1364" y2="539.7" class="dl a" style="animation-delay:2.316s"/>
+<text x="1370" y="536" class="dt a" text-anchor="start" style="animation-delay:2.328s">S1</text>
+<circle cx="665.15" cy="535.65" r="1.8" class="dot a" style="animation-delay:2.340s"/>
+<polyline points="665.15 535.65 643.15 557.65 633.15 557.65" class="lead a" style="animation-delay:2.352s"/>
+<text x="629.15" y="561.65" class="dt a" text-anchor="end" style="animation-delay:2.364s">R1</text>
+<circle cx="1297.7" cy="518.5" r="1.8" class="dot a" style="animation-delay:2.376s"/>
+<polyline points="1297.7 518.5 1319.7 540.5 1329.7 540.5" class="lead a" style="animation-delay:2.388s"/>
+<text x="1333.7" y="544.5" class="dt a" text-anchor="start" style="animation-delay:2.400s">R4</text>
+<circle cx="1188" cy="415.4" r="44" class="ph a" style="animation-delay:2.412s"/>
+<line x1="1144.22" y1="419.78" x2="1078" y2="426.4" class="lead a" style="animation-delay:2.424s"/>
+<text x="1074" y="430.4" class="dts a" text-anchor="end" style="animation-delay:2.436s">DETAIL B</text>
+<circle cx="666.6" cy="362.6" r="14" class="ph a" style="animation-delay:2.448s"/>
+<line x1="680.03" y1="358.65" x2="704" y2="351.6" class="lead a" style="animation-delay:2.460s"/>
+<text x="708" y="355.6" class="dts a" text-anchor="start" style="animation-delay:2.472s">DETAIL C</text>
+<text x="990" y="626.6" class="vt a" text-anchor="middle" style="animation-delay:2.484s">Plan view</text>
+<text x="990" y="640.6" class="dts a" text-anchor="middle" style="animation-delay:2.496s">Scale 1.1:1 · reference W = 600</text>
+<line x1="290" y1="704" x2="290" y2="536" class="ph a" style="animation-delay:2.508s"/>
+<line x1="572" y1="755" x2="572" y2="587" class="ph a" style="animation-delay:2.520s"/>
+<line x1="533.24" y1="808.58" x2="533.24" y2="640.58" class="ph a" style="animation-delay:2.532s"/>
+<line x1="251.24" y1="757.58" x2="251.24" y2="589.58" class="ph a" style="animation-delay:2.544s"/>
+<g transform="matrix(0.47 0.09 -0.17 0.24 290 760)" class="a" style="animation-delay:2.556s"><rect x="-20" y="-20" width="640" height="268" rx="0" class="thin" vector-effect="non-scaling-stroke"/></g>
+<g transform="matrix(0.47 0.09 -0.17 0.24 290 704)" class="a" style="animation-delay:2.568s"><rect x="16" y="16" width="568" height="196" rx="16" class="hs" fill="url(#hat)" vector-effect="non-scaling-stroke"/></g>
+<g transform="matrix(0.47 0.09 -0.17 0.24 290 648)" class="a" style="animation-delay:2.580s"><rect x="0" y="0" width="600" height="228" rx="16" class="obj" vector-effect="non-scaling-stroke"/><line x1="1" y1="65" x2="599" y2="65" class="ph" vector-effect="non-scaling-stroke"/><line x1="1" y1="163" x2="599" y2="163" class="ph" vector-effect="non-scaling-stroke"/></g>
+<g transform="matrix(0.47 0.09 -0.17 0.24 290 592)" class="a" style="animation-delay:2.592s"><rect x="5" y="65" width="590" height="98" rx="11" class="well" vector-effect="non-scaling-stroke"/><rect x="497" y="22" width="88" height="22" rx="10" class="hug" vector-effect="non-scaling-stroke"/></g>
+<g transform="matrix(0.47 0.09 -0.17 0.24 290 536)" class="a" style="animation-delay:2.604s"><rect x="15" y="25" width="16" height="16" rx="0" class="thin" vector-effect="non-scaling-stroke"/><rect x="39" y="23" width="446" height="20" rx="2" class="slot" vector-effect="non-scaling-stroke"/><rect x="18" y="78" width="564" height="40" rx="2" class="slot" vector-effect="non-scaling-stroke"/><rect x="18" y="130" width="564" height="20" rx="2" class="slot" vector-effect="non-scaling-stroke"/><rect x="15" y="179" width="408" height="32" rx="2" class="slot" vector-effect="non-scaling-stroke"/><rect x="435" y="177" width="150" height="36" rx="18" class="hug" vector-effect="non-scaling-stroke"/></g>
+<circle cx="238.44" cy="816.58" r="1.8" class="dot a" style="animation-delay:2.616s"/>
+<polyline points="238.44 816.58 235 816.58 225 816.58" class="lead a" style="animation-delay:2.628s"/>
+<text x="221" y="814.58" class="vt a" text-anchor="end" style="animation-delay:2.640s">L0 · Canvas</text>
+<text x="221" y="827.58" class="dts a" text-anchor="end" style="animation-delay:2.652s">Page background</text>
+<circle cx="256.04" cy="762.7" r="1.8" class="dot a" style="animation-delay:2.664s"/>
+<polyline points="256.04 762.7 235 762.7 225 762.7" class="lead a" style="animation-delay:2.676s"/>
+<text x="221" y="760.7" class="vt a" text-anchor="end" style="animation-delay:2.688s">L1 · Shadow</text>
+<text x="221" y="773.7" class="dts a" text-anchor="end" style="animation-delay:2.700s">Footprint · Y · BL · SP</text>
+<circle cx="251.24" cy="701.58" r="1.8" class="dot a" style="animation-delay:2.712s"/>
+<polyline points="251.24 701.58 235 701.58 225 701.58" class="lead a" style="animation-delay:2.724s"/>
+<text x="221" y="699.58" class="vt a" text-anchor="end" style="animation-delay:2.736s">L2 · Container</text>
+<text x="221" y="712.58" class="dts a" text-anchor="end" style="animation-delay:2.748s">R1 · B · header / body / footer</text>
+<circle cx="264.64" cy="630.73" r="1.8" class="dot a" style="animation-delay:2.760s"/>
+<polyline points="264.64 630.73 235 630.73 225 630.73" class="lead a" style="animation-delay:2.772s"/>
+<text x="221" y="628.73" class="vt a" text-anchor="end" style="animation-delay:2.784s">L3 · Inset surfaces</text>
+<text x="221" y="641.73" class="dts a" text-anchor="end" style="animation-delay:2.796s">Well R2 · trail R3</text>
+<circle cx="261.18" cy="586.86" r="1.8" class="dot a" style="animation-delay:2.808s"/>
+<polyline points="261.18 586.86 235 586.86 225 586.86" class="lead a" style="animation-delay:2.820s"/>
+<text x="221" y="584.86" class="vt a" text-anchor="end" style="animation-delay:2.832s">L4 · Slots</text>
+<text x="221" y="597.86" class="dts a" text-anchor="end" style="animation-delay:2.844s">Title · content · meta · action</text>
+<text x="410" y="910" class="vt a" text-anchor="middle" style="animation-delay:2.856s">Exploded view</text>
+<text x="410" y="924" class="dts a" text-anchor="middle" style="animation-delay:2.868s">Axonometric · z gaps not to scale</text>
+<path d="M670,718 L670,808 A72 72 0 0 0 742,880 L832,880" class="obj a" fill="none" style="animation-delay:2.880s"/>
+<path d="M674.5,718 L674.5,808 A67.5 67.5 0 0 0 742,875.5 L832,875.5" class="thin a" style="animation-delay:2.892s"/>
+<path d="M692.5,718 L692.5,808 A49.5 49.5 0 0 0 742,857.5 L832,857.5" class="thin a" style="animation-delay:2.904s"/>
+<path d="M734,808 h16 M742,800 v16" class="thin a" style="animation-delay:2.916s"/>
+<line x1="742" y1="808" x2="676.75" y2="838.43" class="dl a" marker-end="url(#ar)" style="animation-delay:2.928s"/>
+<text x="703.37" y="817.21" class="dt a" text-anchor="end" style="animation-delay:2.940s">R1</text>
+<line x1="742" y1="808" x2="725.07" y2="854.51" class="dl a" marker-end="url(#ar)" style="animation-delay:2.952s"/>
+<text x="741.54" y="833.26" class="dt a" text-anchor="start" style="animation-delay:2.964s">R2</text>
+<line x1="670" y1="721" x2="670" y2="741" class="ext a" style="animation-delay:2.976s"/>
+<line x1="674.5" y1="721" x2="674.5" y2="741" class="ext a" style="animation-delay:2.988s"/>
+<line x1="657" y1="736" x2="670" y2="736" class="dl a" marker-end="url(#ar)" style="animation-delay:3.000s"/>
+<line x1="687.5" y1="736" x2="674.5" y2="736" class="dl a" marker-end="url(#ar)" style="animation-delay:3.012s"/>
+<line x1="670" y1="736" x2="674.5" y2="736" class="dl a" style="animation-delay:3.024s"/>
+<text x="662.25" y="732" class="dt a" text-anchor="middle" style="animation-delay:3.036s">B</text>
+<line x1="692.5" y1="721" x2="692.5" y2="741" class="ext a" style="animation-delay:3.048s"/>
+<line x1="661.5" y1="736" x2="674.5" y2="736" class="dl a" marker-end="url(#ar)" style="animation-delay:3.060s"/>
+<line x1="705.5" y1="736" x2="692.5" y2="736" class="dl a" marker-end="url(#ar)" style="animation-delay:3.072s"/>
+<line x1="674.5" y1="736" x2="692.5" y2="736" class="dl a" style="animation-delay:3.084s"/>
+<text x="695.5" y="732" class="dt a" text-anchor="middle" style="animation-delay:3.096s">S6</text>
+<text x="754" y="796" class="dts a" style="animation-delay:3.108s">SHARED CENTER</text>
+<text x="714.64" y="745" class="dt a" style="animation-delay:3.120s">R2 = R1 − B − S6</text>
+<text x="751" y="910" class="vt a" text-anchor="middle" style="animation-delay:3.132s">Detail C · nested corner</text>
+<text x="751" y="924" class="dts a" text-anchor="middle" style="animation-delay:3.144s">Scale 4.5:1</text>
+<path d="M950,718 L950,751.6 A38.4 38.4 0 0 0 988.4,790 L1022,790" class="obj a" fill="none" style="animation-delay:3.156s"/>
+<path d="M983.4,751.6 h10 M988.4,746.6 v10" class="thin a" style="animation-delay:3.168s"/>
+<line x1="988.4" y1="751.6" x2="961.25" y2="778.75" class="dl a" marker-end="url(#ar)" style="animation-delay:3.180s"/>
+<text x="992" y="734" class="dt a" style="animation-delay:3.192s">R1</text>
+<text x="950" y="808" class="dts a" style="animation-delay:3.204s">Container</text>
+<path d="M1058,718 L1058,763.6 A26.4 26.4 0 0 0 1084.4,790 L1130,790" class="obj a" fill="none" style="animation-delay:3.216s"/>
+<path d="M1079.4,763.6 h10 M1084.4,758.6 v10" class="thin a" style="animation-delay:3.228s"/>
+<line x1="1084.4" y1="763.6" x2="1065.73" y2="782.27" class="dl a" marker-end="url(#ar)" style="animation-delay:3.240s"/>
+<text x="1100" y="734" class="dt a" style="animation-delay:3.252s">R2</text>
+<text x="1058" y="808" class="dts a" style="animation-delay:3.264s">Well</text>
+<path d="M1166,718 L1166,766 A24 24 0 0 0 1190,790 L1238,790" class="obj a" fill="none" style="animation-delay:3.276s"/>
+<path d="M1185,766 h10 M1190,761 v10" class="thin a" style="animation-delay:3.288s"/>
+<line x1="1190" y1="766" x2="1173.03" y2="782.97" class="dl a" marker-end="url(#ar)" style="animation-delay:3.300s"/>
+<text x="1208" y="734" class="dt a" style="animation-delay:3.312s">R3</text>
+<text x="1166" y="808" class="dts a" style="animation-delay:3.324s">Trail slot</text>
+<path d="M1274,718 L1274,746.8 A43.2 43.2 0 0 0 1317.2,790 L1346,790" class="obj a" fill="none" style="animation-delay:3.336s"/>
+<path d="M1312.2,746.8 h10 M1317.2,741.8 v10" class="thin a" style="animation-delay:3.348s"/>
+<line x1="1317.2" y1="746.8" x2="1286.65" y2="777.35" class="dl a" marker-end="url(#ar)" style="animation-delay:3.360s"/>
+<text x="1316" y="734" class="dt a" style="animation-delay:3.372s">R4</text>
+<text x="1274" y="808" class="dts a" style="animation-delay:3.384s">Pill (h = H3)</text>
+<text x="1120" y="834" class="vt a" text-anchor="middle" style="animation-delay:3.396s">Radius details</text>
+<text x="1120" y="848" class="dts a" text-anchor="middle" style="animation-delay:3.408s">Scale 2.4:1</text>
+<rect x="82" y="278" width="356" height="170" class="env a" style="animation-delay:3.420s"/>
+<rect x="118" y="298" width="284" height="98" rx="8" fill="url(#hat)" class="hs a" style="animation-delay:3.432s"/>
+<rect x="110" y="290" width="300" height="114" rx="8" class="obj a" fill-opacity="0.85" style="animation-delay:3.444s"/>
+<line x1="85" y1="278" x2="160" y2="278" class="ext a" style="animation-delay:3.456s"/>
+<line x1="113" y1="290" x2="160" y2="290" class="ext a" style="animation-delay:3.468s"/>
+<line x1="155" y1="265" x2="155" y2="278" class="dl a" marker-end="url(#ar)" style="animation-delay:3.480s"/>
+<line x1="155" y1="303" x2="155" y2="290" class="dl a" marker-end="url(#ar)" style="animation-delay:3.492s"/>
+<line x1="155" y1="278" x2="155" y2="290" class="dl a" style="animation-delay:3.504s"/>
+<text x="161" y="288" class="dt a" text-anchor="start" style="animation-delay:3.516s">E1</text>
+<line x1="82" y1="445" x2="82" y2="424.08" class="ext a" style="animation-delay:3.528s"/>
+<line x1="110" y1="407" x2="110" y2="434.08" class="ext a" style="animation-delay:3.540s"/>
+<line x1="82" y1="429.08" x2="110" y2="429.08" class="dl a" marker-start="url(#ar)" marker-end="url(#ar)" style="animation-delay:3.552s"/>
+<text x="96" y="442.08" class="dt a" text-anchor="middle" style="animation-delay:3.564s">E2</text>
+<line x1="410" y1="407" x2="410" y2="434.08" class="ext a" style="animation-delay:3.576s"/>
+<line x1="438" y1="445" x2="438" y2="424.08" class="ext a" style="animation-delay:3.588s"/>
+<line x1="410" y1="429.08" x2="438" y2="429.08" class="dl a" marker-start="url(#ar)" marker-end="url(#ar)" style="animation-delay:3.600s"/>
+<text x="424" y="442.08" class="dt a" text-anchor="middle" style="animation-delay:3.612s">E2</text>
+<line x1="260" y1="404" x2="260" y2="448" class="dl a" marker-start="url(#ar)" marker-end="url(#ar)" style="animation-delay:3.624s"/>
+<text x="266" y="430" class="dt a" text-anchor="start" style="animation-delay:3.636s">E3</text>
+<rect x="446" y="280" width="12" height="12" class="nb a" style="animation-delay:3.648s"/>
+<text x="452" y="289.5" class="nbt a" text-anchor="middle" style="animation-delay:3.660s">5</text>
+<text x="260" y="494" class="vt a" text-anchor="middle" style="animation-delay:3.672s">Shadow envelope</text>
+<text x="260" y="508" class="dts a" text-anchor="middle" style="animation-delay:3.684s">Scale 0.5:1 · E1 / E2 / E3 from Y, BL, SP</text>
+<line x1="935" y1="872" x2="935" y2="961.7" class="ph a" style="animation-delay:3.696s"/>
+<line x1="1325" y1="872" x2="1325" y2="961.7" class="ph a" style="animation-delay:3.708s"/>
+<rect x="938.25" y="885" width="383.5" height="63.7" rx="7.15" class="well a" style="animation-delay:3.720s"/>
+<rect x="946.7" y="893.45" width="366.6" height="26" rx="2" class="slot a" style="animation-delay:3.732s"/>
+<text x="1130" y="909.65" class="sl a" text-anchor="middle" style="animation-delay:3.744s">Content slot · fill</text>
+<rect x="946.7" y="927.25" width="366.6" height="13" rx="2" class="slot a" style="animation-delay:3.756s"/>
+<text x="1130" y="936.95" class="sl a" text-anchor="middle" style="animation-delay:3.768s">Content slot · fill</text>
+<line x1="935.65" y1="964.7" x2="935.65" y2="970.6" class="ext a" style="animation-delay:3.780s"/>
+<line x1="938.25" y1="951.7" x2="938.25" y2="970.6" class="ext a" style="animation-delay:3.792s"/>
+<line x1="922.65" y1="965.6" x2="935.65" y2="965.6" class="dl a" marker-end="url(#ar)" style="animation-delay:3.804s"/>
+<line x1="951.25" y1="965.6" x2="938.25" y2="965.6" class="dl a" marker-end="url(#ar)" style="animation-delay:3.816s"/>
+<line x1="935.65" y1="965.6" x2="938.25" y2="965.6" class="dl a" style="animation-delay:3.828s"/>
+<text x="926.95" y="978.6" class="dt a" text-anchor="middle" style="animation-delay:3.840s">S6</text>
+<line x1="946.7" y1="943.25" x2="946.7" y2="970.6" class="ext a" style="animation-delay:3.852s"/>
+<line x1="925.9" y1="965.6" x2="938.9" y2="965.6" class="dl a" marker-end="url(#ar)" style="animation-delay:3.864s"/>
+<line x1="959.7" y1="965.6" x2="946.7" y2="965.6" class="dl a" marker-end="url(#ar)" style="animation-delay:3.876s"/>
+<line x1="938.9" y1="965.6" x2="946.7" y2="965.6" class="dl a" style="animation-delay:3.888s"/>
+<text x="950.8" y="978.6" class="dt a" text-anchor="middle" style="animation-delay:3.900s">S2</text>
+<line x1="1313.3" y1="943.25" x2="1313.3" y2="970.6" class="ext a" style="animation-delay:3.912s"/>
+<line x1="946.7" y1="965.6" x2="1313.3" y2="965.6" class="dl a" marker-start="url(#ar)" marker-end="url(#ar)" style="animation-delay:3.924s"/>
+<text x="1130" y="978.6" class="dts a" text-anchor="middle" style="animation-delay:3.936s">FILL</text>
+<line x1="1321.1" y1="943.25" x2="1321.1" y2="970.6" class="ext a" style="animation-delay:3.948s"/>
+<line x1="1300.3" y1="965.6" x2="1313.3" y2="965.6" class="dl a" marker-end="url(#ar)" style="animation-delay:3.960s"/>
+<line x1="1334.1" y1="965.6" x2="1321.1" y2="965.6" class="dl a" marker-end="url(#ar)" style="animation-delay:3.972s"/>
+<line x1="1313.3" y1="965.6" x2="1321.1" y2="965.6" class="dl a" style="animation-delay:3.984s"/>
+<text x="1311.2" y="978.6" class="dt a" text-anchor="middle" style="animation-delay:3.996s">S2</text>
+<line x1="1321.75" y1="951.7" x2="1321.75" y2="970.6" class="ext a" style="animation-delay:4.008s"/>
+<line x1="1324.35" y1="964.7" x2="1324.35" y2="970.6" class="ext a" style="animation-delay:4.020s"/>
+<line x1="1308.75" y1="965.6" x2="1321.75" y2="965.6" class="dl a" marker-end="url(#ar)" style="animation-delay:4.032s"/>
+<line x1="1337.35" y1="965.6" x2="1324.35" y2="965.6" class="dl a" marker-end="url(#ar)" style="animation-delay:4.044s"/>
+<line x1="1321.75" y1="965.6" x2="1324.35" y2="965.6" class="dl a" style="animation-delay:4.056s"/>
+<text x="1333.05" y="978.6" class="dt a" text-anchor="middle" style="animation-delay:4.068s">S6</text>
+<line x1="1324.75" y1="885.65" x2="1346.9" y2="885.65" class="ext a" style="animation-delay:4.080s"/>
+<line x1="1324.75" y1="893.45" x2="1346.9" y2="893.45" class="ext a" style="animation-delay:4.092s"/>
+<line x1="1341.9" y1="872.65" x2="1341.9" y2="885.65" class="dl a" marker-end="url(#ar)" style="animation-delay:4.104s"/>
+<line x1="1341.9" y1="906.45" x2="1341.9" y2="893.45" class="dl a" marker-end="url(#ar)" style="animation-delay:4.116s"/>
+<line x1="1341.9" y1="885.65" x2="1341.9" y2="893.45" class="dl a" style="animation-delay:4.128s"/>
+<text x="1347.9" y="893.55" class="dt a" text-anchor="start" style="animation-delay:4.140s">S2</text>
+<line x1="1324.75" y1="919.45" x2="1346.9" y2="919.45" class="ext a" style="animation-delay:4.152s"/>
+<line x1="1324.75" y1="927.25" x2="1346.9" y2="927.25" class="ext a" style="animation-delay:4.164s"/>
+<line x1="1341.9" y1="906.45" x2="1341.9" y2="919.45" class="dl a" marker-end="url(#ar)" style="animation-delay:4.176s"/>
+<line x1="1341.9" y1="940.25" x2="1341.9" y2="927.25" class="dl a" marker-end="url(#ar)" style="animation-delay:4.188s"/>
+<line x1="1341.9" y1="919.45" x2="1341.9" y2="927.25" class="dl a" style="animation-delay:4.200s"/>
+<text x="1347.9" y="927.35" class="dt a" text-anchor="start" style="animation-delay:4.212s">S3</text>
+<line x1="1324.75" y1="940.25" x2="1346.9" y2="940.25" class="ext a" style="animation-delay:4.224s"/>
+<line x1="1324.75" y1="948.05" x2="1346.9" y2="948.05" class="ext a" style="animation-delay:4.236s"/>
+<line x1="1341.9" y1="927.25" x2="1341.9" y2="940.25" class="dl a" marker-end="url(#ar)" style="animation-delay:4.248s"/>
+<line x1="1341.9" y1="961.05" x2="1341.9" y2="948.05" class="dl a" marker-end="url(#ar)" style="animation-delay:4.260s"/>
+<line x1="1341.9" y1="940.25" x2="1341.9" y2="948.05" class="dl a" style="animation-delay:4.272s"/>
+<text x="1347.9" y="948.15" class="dt a" text-anchor="start" style="animation-delay:4.284s">S2</text>
+<rect x="1306" y="871.2" width="12" height="12" class="nb a" style="animation-delay:4.296s"/>
+<text x="1312" y="880.7" class="nbt a" text-anchor="middle" style="animation-delay:4.308s">2</text>
+<text x="1130" y="1012" class="vt a" text-anchor="middle" style="animation-delay:4.320s">Detail B · body well</text>
+<text x="1130" y="1026" class="dts a" text-anchor="middle" style="animation-delay:4.332s">Scale 0.65:1</text>
+<text x="1426" y="78" class="vt a" style="animation-delay:4.344s">Spacing</text>
+<rect x="1426" y="86" width="40" height="17" class="thin a" style="animation-delay:4.356s"/>
+<text x="1432" y="98" class="th a" text-anchor="start" style="animation-delay:4.368s">Code</text>
+<rect x="1466" y="86" width="88" height="17" class="thin a" style="animation-delay:4.380s"/>
+<text x="1510" y="98" class="th a" text-anchor="middle" style="animation-delay:4.392s">Variable</text>
+<rect x="1554" y="86" width="96" height="17" class="thin a" style="animation-delay:4.404s"/>
+<text x="1602" y="98" class="th a" text-anchor="middle" style="animation-delay:4.416s">Value</text>
+<rect x="1426" y="103" width="40" height="17" class="thin a" style="animation-delay:4.428s"/>
+<text x="1432" y="115" class="tc a" text-anchor="start" style="animation-delay:4.440s">S1</text>
+<rect x="1466" y="103" width="88" height="17" class="thin a" style="animation-delay:4.452s"/>
+<text x="1510" y="115" class="tc a" text-anchor="middle" style="animation-delay:4.464s">card-pad</text>
+<rect x="1554" y="103" width="96" height="17" class="thin a" style="animation-delay:4.476s"/>
+<text x="1602" y="115" class="tc a" text-anchor="middle" style="animation-delay:4.488s">14</text>
+<rect x="1426" y="120" width="40" height="17" class="thin a" style="animation-delay:4.500s"/>
+<text x="1432" y="132" class="tc a" text-anchor="start" style="animation-delay:4.512s">S2</text>
+<rect x="1466" y="120" width="88" height="17" class="thin a" style="animation-delay:4.524s"/>
+<text x="1510" y="132" class="tc a" text-anchor="middle" style="animation-delay:4.536s">well-pad</text>
+<rect x="1554" y="120" width="96" height="17" class="thin a" style="animation-delay:4.548s"/>
+<text x="1602" y="132" class="tc a" text-anchor="middle" style="animation-delay:4.560s">12</text>
+<rect x="1426" y="137" width="40" height="17" class="thin a" style="animation-delay:4.572s"/>
+<text x="1432" y="149" class="tc a" text-anchor="start" style="animation-delay:4.584s">S3</text>
+<rect x="1466" y="137" width="88" height="17" class="thin a" style="animation-delay:4.596s"/>
+<text x="1510" y="149" class="tc a" text-anchor="middle" style="animation-delay:4.608s">stack-gap</text>
+<rect x="1554" y="137" width="96" height="17" class="thin a" style="animation-delay:4.620s"/>
+<text x="1602" y="149" class="tc a" text-anchor="middle" style="animation-delay:4.632s">12</text>
+<rect x="1426" y="154" width="40" height="17" class="thin a" style="animation-delay:4.644s"/>
+<text x="1432" y="166" class="tc a" text-anchor="start" style="animation-delay:4.656s">S4</text>
+<rect x="1466" y="154" width="88" height="17" class="thin a" style="animation-delay:4.668s"/>
+<text x="1510" y="166" class="tc a" text-anchor="middle" style="animation-delay:4.680s">gap-min</text>
+<rect x="1554" y="154" width="96" height="17" class="thin a" style="animation-delay:4.692s"/>
+<text x="1602" y="166" class="tc a" text-anchor="middle" style="animation-delay:4.704s">12</text>
+<rect x="1426" y="171" width="40" height="17" class="thin a" style="animation-delay:4.716s"/>
+<text x="1432" y="183" class="tc a" text-anchor="start" style="animation-delay:4.728s">S5</text>
+<rect x="1466" y="171" width="88" height="17" class="thin a" style="animation-delay:4.740s"/>
+<text x="1510" y="183" class="tc a" text-anchor="middle" style="animation-delay:4.752s">lead-gap</text>
+<rect x="1554" y="171" width="96" height="17" class="thin a" style="animation-delay:4.764s"/>
+<text x="1602" y="183" class="tc a" text-anchor="middle" style="animation-delay:4.776s">8</text>
+<rect x="1426" y="188" width="40" height="17" class="thin a" style="animation-delay:4.788s"/>
+<text x="1432" y="200" class="tc a" text-anchor="start" style="animation-delay:4.800s">S6</text>
+<rect x="1466" y="188" width="88" height="17" class="thin a" style="animation-delay:4.812s"/>
+<text x="1510" y="200" class="tc a" text-anchor="middle" style="animation-delay:4.824s">well-inset</text>
+<rect x="1554" y="188" width="96" height="17" class="thin a" style="animation-delay:4.836s"/>
+<text x="1602" y="200" class="tc a" text-anchor="middle" style="animation-delay:4.848s">4</text>
+<text x="1426" y="233" class="vt a" style="animation-delay:4.860s">Size</text>
+<rect x="1426" y="241" width="40" height="17" class="thin a" style="animation-delay:4.872s"/>
+<text x="1432" y="253" class="th a" text-anchor="start" style="animation-delay:4.884s">Code</text>
+<rect x="1466" y="241" width="88" height="17" class="thin a" style="animation-delay:4.896s"/>
+<text x="1510" y="253" class="th a" text-anchor="middle" style="animation-delay:4.908s">Variable</text>
+<rect x="1554" y="241" width="96" height="17" class="thin a" style="animation-delay:4.920s"/>
+<text x="1602" y="253" class="th a" text-anchor="middle" style="animation-delay:4.932s">Value</text>
+<rect x="1426" y="258" width="40" height="17" class="thin a" style="animation-delay:4.944s"/>
+<text x="1432" y="270" class="tc a" text-anchor="start" style="animation-delay:4.956s">B</text>
+<rect x="1466" y="258" width="88" height="17" class="thin a" style="animation-delay:4.968s"/>
+<text x="1510" y="270" class="tc a" text-anchor="middle" style="animation-delay:4.980s">border</text>
+<rect x="1554" y="258" width="96" height="17" class="thin a" style="animation-delay:4.992s"/>
+<text x="1602" y="270" class="tc a" text-anchor="middle" style="animation-delay:5.004s">1</text>
+<rect x="1426" y="275" width="40" height="17" class="thin a" style="animation-delay:5.016s"/>
+<text x="1432" y="287" class="tc a" text-anchor="start" style="animation-delay:5.028s">Z1</text>
+<rect x="1466" y="275" width="88" height="17" class="thin a" style="animation-delay:5.040s"/>
+<text x="1510" y="287" class="tc a" text-anchor="middle" style="animation-delay:5.052s">lead-size</text>
+<rect x="1554" y="275" width="96" height="17" class="thin a" style="animation-delay:5.064s"/>
+<text x="1602" y="287" class="tc a" text-anchor="middle" style="animation-delay:5.076s">16</text>
+<rect x="1426" y="292" width="40" height="17" class="thin a" style="animation-delay:5.088s"/>
+<text x="1432" y="304" class="tc a" text-anchor="start" style="animation-delay:5.100s">H3</text>
+<rect x="1466" y="292" width="88" height="17" class="thin a" style="animation-delay:5.112s"/>
+<text x="1510" y="304" class="tc a" text-anchor="middle" style="animation-delay:5.124s">action-h</text>
+<rect x="1554" y="292" width="96" height="17" class="thin a" style="animation-delay:5.136s"/>
+<text x="1602" y="304" class="tc a" text-anchor="middle" style="animation-delay:5.148s">36</text>
+<rect x="1426" y="309" width="40" height="17" class="thin a" style="animation-delay:5.160s"/>
+<text x="1432" y="321" class="tc a" text-anchor="start" style="animation-delay:5.172s">H4</text>
+<rect x="1466" y="309" width="88" height="17" class="thin a" style="animation-delay:5.184s"/>
+<text x="1510" y="321" class="tc a" text-anchor="middle" style="animation-delay:5.196s">trail-h</text>
+<rect x="1554" y="309" width="96" height="17" class="thin a" style="animation-delay:5.208s"/>
+<text x="1602" y="321" class="tc a" text-anchor="middle" style="animation-delay:5.220s">22</text>
+<rect x="1426" y="326" width="40" height="17" class="thin a" style="animation-delay:5.232s"/>
+<text x="1432" y="338" class="tc a" text-anchor="start" style="animation-delay:5.244s">H1</text>
+<rect x="1466" y="326" width="88" height="17" class="thin a" style="animation-delay:5.256s"/>
+<text x="1510" y="338" class="tc a" text-anchor="middle" style="animation-delay:5.268s">header-min</text>
+<rect x="1554" y="326" width="96" height="17" class="thin a" style="animation-delay:5.280s"/>
+<text x="1602" y="338" class="tc a" text-anchor="middle" style="animation-delay:5.292s">2·S1+H3 = 64</text>
+<rect x="1426" y="343" width="40" height="17" class="thin a" style="animation-delay:5.304s"/>
+<text x="1432" y="355" class="tc a" text-anchor="start" style="animation-delay:5.316s">H2</text>
+<rect x="1466" y="343" width="88" height="17" class="thin a" style="animation-delay:5.328s"/>
+<text x="1510" y="355" class="tc a" text-anchor="middle" style="animation-delay:5.340s">footer-h</text>
+<rect x="1554" y="343" width="96" height="17" class="thin a" style="animation-delay:5.352s"/>
+<text x="1602" y="355" class="tc a" text-anchor="middle" style="animation-delay:5.364s">2·S1+H3 = 64</text>
+<rect x="1426" y="360" width="40" height="17" class="thin a" style="animation-delay:5.376s"/>
+<text x="1432" y="372" class="tc a" text-anchor="start" style="animation-delay:5.388s">W</text>
+<rect x="1466" y="360" width="88" height="17" class="thin a" style="animation-delay:5.400s"/>
+<text x="1510" y="372" class="tc a" text-anchor="middle" style="animation-delay:5.412s">card-w</text>
+<rect x="1554" y="360" width="96" height="17" class="thin a" style="animation-delay:5.424s"/>
+<text x="1602" y="372" class="tc a" text-anchor="middle" style="animation-delay:5.436s">420–680</text>
+<text x="1426" y="405" class="vt a" style="animation-delay:5.448s">Radius</text>
+<rect x="1426" y="413" width="40" height="17" class="thin a" style="animation-delay:5.460s"/>
+<text x="1432" y="425" class="th a" text-anchor="start" style="animation-delay:5.472s">Code</text>
+<rect x="1466" y="413" width="88" height="17" class="thin a" style="animation-delay:5.484s"/>
+<text x="1510" y="425" class="th a" text-anchor="middle" style="animation-delay:5.496s">Variable</text>
+<rect x="1554" y="413" width="96" height="17" class="thin a" style="animation-delay:5.508s"/>
+<text x="1602" y="425" class="th a" text-anchor="middle" style="animation-delay:5.520s">Value</text>
+<rect x="1426" y="430" width="40" height="17" class="thin a" style="animation-delay:5.532s"/>
+<text x="1432" y="442" class="tc a" text-anchor="start" style="animation-delay:5.544s">R1</text>
+<rect x="1466" y="430" width="88" height="17" class="thin a" style="animation-delay:5.556s"/>
+<text x="1510" y="442" class="tc a" text-anchor="middle" style="animation-delay:5.568s">r-card</text>
+<rect x="1554" y="430" width="96" height="17" class="thin a" style="animation-delay:5.580s"/>
+<text x="1602" y="442" class="tc a" text-anchor="middle" style="animation-delay:5.592s">16</text>
+<rect x="1426" y="447" width="40" height="17" class="thin a" style="animation-delay:5.604s"/>
+<text x="1432" y="459" class="tc a" text-anchor="start" style="animation-delay:5.616s">R2</text>
+<rect x="1466" y="447" width="88" height="17" class="thin a" style="animation-delay:5.628s"/>
+<text x="1510" y="459" class="tc a" text-anchor="middle" style="animation-delay:5.640s">r-well</text>
+<rect x="1554" y="447" width="96" height="17" class="thin a" style="animation-delay:5.652s"/>
+<text x="1602" y="459" class="tc a" text-anchor="middle" style="animation-delay:5.664s">R1−B−S6 = 11</text>
+<rect x="1426" y="464" width="40" height="17" class="thin a" style="animation-delay:5.676s"/>
+<text x="1432" y="476" class="tc a" text-anchor="start" style="animation-delay:5.688s">R3</text>
+<rect x="1466" y="464" width="88" height="17" class="thin a" style="animation-delay:5.700s"/>
+<text x="1510" y="476" class="tc a" text-anchor="middle" style="animation-delay:5.712s">r-trail</text>
+<rect x="1554" y="464" width="96" height="17" class="thin a" style="animation-delay:5.724s"/>
+<text x="1602" y="476" class="tc a" text-anchor="middle" style="animation-delay:5.736s">10</text>
+<rect x="1426" y="481" width="40" height="17" class="thin a" style="animation-delay:5.748s"/>
+<text x="1432" y="493" class="tc a" text-anchor="start" style="animation-delay:5.760s">R4</text>
+<rect x="1466" y="481" width="88" height="17" class="thin a" style="animation-delay:5.772s"/>
+<text x="1510" y="493" class="tc a" text-anchor="middle" style="animation-delay:5.784s">r-pill</text>
+<rect x="1554" y="481" width="96" height="17" class="thin a" style="animation-delay:5.796s"/>
+<text x="1602" y="493" class="tc a" text-anchor="middle" style="animation-delay:5.808s">h ÷ 2</text>
+<text x="1426" y="526" class="vt a" style="animation-delay:5.820s">Shadow</text>
+<rect x="1426" y="534" width="40" height="17" class="thin a" style="animation-delay:5.832s"/>
+<text x="1432" y="546" class="th a" text-anchor="start" style="animation-delay:5.844s">Code</text>
+<rect x="1466" y="534" width="88" height="17" class="thin a" style="animation-delay:5.856s"/>
+<text x="1510" y="546" class="th a" text-anchor="middle" style="animation-delay:5.868s">Variable</text>
+<rect x="1554" y="534" width="96" height="17" class="thin a" style="animation-delay:5.880s"/>
+<text x="1602" y="546" class="th a" text-anchor="middle" style="animation-delay:5.892s">Value</text>
+<rect x="1426" y="551" width="40" height="17" class="thin a" style="animation-delay:5.904s"/>
+<text x="1432" y="563" class="tc a" text-anchor="start" style="animation-delay:5.916s">Y</text>
+<rect x="1466" y="551" width="88" height="17" class="thin a" style="animation-delay:5.928s"/>
+<text x="1510" y="563" class="tc a" text-anchor="middle" style="animation-delay:5.940s">shadow-y</text>
+<rect x="1554" y="551" width="96" height="17" class="thin a" style="animation-delay:5.952s"/>
+<text x="1602" y="563" class="tc a" text-anchor="middle" style="animation-delay:5.964s">32</text>
+<rect x="1426" y="568" width="40" height="17" class="thin a" style="animation-delay:5.976s"/>
+<text x="1432" y="580" class="tc a" text-anchor="start" style="animation-delay:5.988s">BL</text>
+<rect x="1466" y="568" width="88" height="17" class="thin a" style="animation-delay:6.000s"/>
+<text x="1510" y="580" class="tc a" text-anchor="middle" style="animation-delay:6.012s">shadow-blur</text>
+<rect x="1554" y="568" width="96" height="17" class="thin a" style="animation-delay:6.024s"/>
+<text x="1602" y="580" class="tc a" text-anchor="middle" style="animation-delay:6.036s">72</text>
+<rect x="1426" y="585" width="40" height="17" class="thin a" style="animation-delay:6.048s"/>
+<text x="1432" y="597" class="tc a" text-anchor="start" style="animation-delay:6.060s">SP</text>
+<rect x="1466" y="585" width="88" height="17" class="thin a" style="animation-delay:6.072s"/>
+<text x="1510" y="597" class="tc a" text-anchor="middle" style="animation-delay:6.084s">shadow-spread</text>
+<rect x="1554" y="585" width="96" height="17" class="thin a" style="animation-delay:6.096s"/>
+<text x="1602" y="597" class="tc a" text-anchor="middle" style="animation-delay:6.108s">−16</text>
+<rect x="1426" y="602" width="40" height="17" class="thin a" style="animation-delay:6.120s"/>
+<text x="1432" y="614" class="tc a" text-anchor="start" style="animation-delay:6.132s">E1</text>
+<rect x="1466" y="602" width="88" height="17" class="thin a" style="animation-delay:6.144s"/>
+<text x="1510" y="614" class="tc a" text-anchor="middle" style="animation-delay:6.156s">env-top</text>
+<rect x="1554" y="602" width="96" height="17" class="thin a" style="animation-delay:6.168s"/>
+<text x="1602" y="614" class="tc a" text-anchor="middle" style="animation-delay:6.180s">BL+SP−Y = 24</text>
+<rect x="1426" y="619" width="40" height="17" class="thin a" style="animation-delay:6.192s"/>
+<text x="1432" y="631" class="tc a" text-anchor="start" style="animation-delay:6.204s">E2</text>
+<rect x="1466" y="619" width="88" height="17" class="thin a" style="animation-delay:6.216s"/>
+<text x="1510" y="631" class="tc a" text-anchor="middle" style="animation-delay:6.228s">env-side</text>
+<rect x="1554" y="619" width="96" height="17" class="thin a" style="animation-delay:6.240s"/>
+<text x="1602" y="631" class="tc a" text-anchor="middle" style="animation-delay:6.252s">BL+SP = 56</text>
+<rect x="1426" y="636" width="40" height="17" class="thin a" style="animation-delay:6.264s"/>
+<text x="1432" y="648" class="tc a" text-anchor="start" style="animation-delay:6.276s">E3</text>
+<rect x="1466" y="636" width="88" height="17" class="thin a" style="animation-delay:6.288s"/>
+<text x="1510" y="648" class="tc a" text-anchor="middle" style="animation-delay:6.300s">env-bottom</text>
+<rect x="1554" y="636" width="96" height="17" class="thin a" style="animation-delay:6.312s"/>
+<text x="1602" y="648" class="tc a" text-anchor="middle" style="animation-delay:6.324s">BL+SP+Y = 88</text>
+</g>
+<text x="22" y="1276" class="lbl a" style="animation-delay:6.336s">2026-10-23  |  UI COMPONENT REFERENCE</text>
+<text x="1678" y="1276" class="lbl a" text-anchor="end" style="animation-delay:6.348s">Card, architecture  |  1</text>
+</svg>

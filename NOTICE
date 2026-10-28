@@ -1,0 +1,5 @@
+dimdraw ports the SVG drawing kit (dimH, dimV, callout, rad, nb, detailRef, table), the CSS line
+conventions and the one-sheet card layout from enesozturk/dimensional-drawing
+(skills/dimensional-drawing/examples/card-sheet.html), MIT License, Copyright (c) 2026 Enes Ozturk.
+Changes: DOM calls replaced by string output (static SVG, no JavaScript at view time); every
+hard-coded coordinate replaced by a value derived from design tokens; title block moved into the SVG.

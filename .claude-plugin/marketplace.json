@@ -1,0 +1,5 @@
+{
+  "name": "dimdraw",
+  "owner": { "name": "Dodai0419" },
+  "plugins": [{ "name": "dimdraw", "source": "./", "description": "Turn your card's design tokens into an Apple-style dimensional drawing, as one SVG that renders right in your README." }]
+}
